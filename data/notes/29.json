@@ -1,0 +1,36 @@
+{
+ "title": "They want / must, in order to",
+ "summary": "ils veulent = they want, ils doivent = they must (with ils peuvent = they can). The -ent is silent, but you hear the consonant before it. pour = in order to: Je dois aller à la ville pour trouver les clés. payer = to pay.",
+ "points": [
+  "they forms: ils peuvent (can), ils veulent (want), ils doivent (must). Use elles for all-female groups.",
+  "il doit has a silent t. ils doivent: you hear the v.",
+  "Inversion keeps ne in its usual place: Pourquoi ne veulent-elles pas venir ?",
+  "à + la doesn't change (à la ville). Only à + le → au.",
+  "pour + verb = in order to. Test: if 'in order to' fits in English, use pour.",
+  "Ils doivent attendre ici pour payer."
+ ],
+ "vocab": [
+  ["ils veulent", "they want"],
+  ["ils doivent", "they must"],
+  ["il doit", "he must"],
+  ["venir à pied", "to come on foot"],
+  ["pour + verb", "in order to"],
+  ["payer", "to pay"]
+ ],
+ "drills": [
+  ["they can", "ils peuvent", 0],
+  ["they want", "ils veulent", 28],
+  ["They don't want to lose.", "Ils ne veulent pas perdre.", 76],
+  ["They don't want to lose anything.", "Ils ne veulent rien perdre.", 105],
+  ["he must", "il doit", 161],
+  ["they must", "ils doivent", 171],
+  ["They must come on foot.", "Ils doivent venir à pied.", 210],
+  ["Why don't they (fem.) want to come to the village?", "Pourquoi elles ne veulent pas venir au village ?", 232],
+  ["Why don't they (fem.) want to come to the village? (inverted)", "Pourquoi ne veulent-elles pas venir au village ?", 263],
+  ["Why don't they (fem.) want to come to the town?", "Pourquoi elles ne veulent pas venir à la ville ?", 340],
+  ["I must go to town to find the garage keys.", "Je dois aller à la ville pour trouver les clés du garage.", 423],
+  ["to pay", "payer", 469],
+  ["They have to wait in order to pay.", "Ils doivent attendre pour payer.", 489],
+  ["They have to wait here to pay.", "Ils doivent attendre ici pour payer.", 507]
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "title": "The past: j'ai mangé",
+ "summary": "The spoken past is avoir + past participle, like 'I have eaten': j'ai mangé, tu as cuisiné. For -er verbs the participle is -é and sounds just like the infinitive. avoir mirrors aller without the v: je vais / j'ai, tu vas / tu as, il va / il a, ils vont / ils ont. pas encore = not yet. ne … rien goes around the first verb: Il ne va rien faire.",
+ "points": [
+  "je vais manger (I'm going to eat) vs je veux manger (I want to eat). Listen carefully.",
+  "aller: je vais, tu vas, il/elle va, nous allons, ils/elles vont.",
+  "With two verbs, the negative wraps the first: Il ne va rien faire.",
+  "avoir (to have): j'ai, tu as, il/elle a, ils/elles ont ('il-zon').",
+  "Past = avoir + -é: J'ai mangé. Tu as cuisiné. Ils ont cuisiné.",
+  "Negative past: Je n'ai pas mangé. Je n'ai pas encore mangé (not yet).",
+  "Object words go before avoir: Je l'ai mangé. Je les ai mangés.",
+  "Casual speech: tu as → t'as."
+ ],
+ "vocab": [
+  ["je vais / tu vas / il va / ils vont", "I go / you go / he goes / they go"],
+  ["avoir", "to have"],
+  ["j'ai / tu as / il a / ils ont", "I have / you have / he has / they have"],
+  ["mangé", "eaten"],
+  ["cuisiné", "cooked"],
+  ["pas encore", "not yet"]
+ ],
+ "drills": [
+  ["We're going to eat.", "Nous allons manger.", 11],
+  ["I'm going to eat.", "Je vais manger.", 73],
+  ["I want to eat.", "Je veux manger.", 80],
+  ["What is he going to do?", "Qu'est-ce qu'il va faire ?", 120],
+  ["Isn't he going to do anything?", "Il ne va rien faire ?", 144],
+  ["I have it.", "Je l'ai.", 249],
+  ["I have them.", "Je les ai.", 265],
+  ["I've eaten. / I ate.", "J'ai mangé.", 335],
+  ["I haven't eaten.", "Je n'ai pas mangé.", 351],
+  ["not yet", "pas encore", 375],
+  ["I haven't eaten yet.", "Je n'ai pas encore mangé.", 393],
+  ["I ate it.", "Je l'ai mangé.", 411],
+  ["I ate them.", "Je les ai mangés.", 419],
+  ["I haven't eaten them yet.", "Je ne les ai pas encore mangés.", 431],
+  ["You have.", "Tu as.", 509],
+  ["He has.", "Il a.", 527],
+  ["Are they going to come?", "Ils vont venir ?", 564],
+  ["Are they going to come? (inverted)", "Vont-ils venir ?", 575],
+  ["They (fem.) have.", "Elles ont.", 585],
+  ["Have they cooked?", "Elles ont cuisiné ?", 623],
+  ["You've cooked.", "Tu as cuisiné.", 637],
+  ["Have you cooked it?", "Tu l'as cuisiné ?", 655],
+  ["Haven't you cooked it?", "Tu ne l'as pas cuisiné ?", 665],
+  ["Haven't you cooked it yet?", "Tu ne l'as pas encore cuisiné ?", 701]
+ ]
+}

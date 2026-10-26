@@ -1,0 +1,46 @@
+{
+ "title": "To try, where is…?, where are you from?",
+ "summary": "essayer = to try. J'essaie de… = I'm trying to… (with de). où = where, est = is. Casual French puts the question word at the end: Elle est où ? Tu es où ? You also learn être forms: je suis, tu es, il/elle est, and d'où (from where), d'ici (from here).",
+ "points": [
+  "essayer de + verb = to try to: J'essaie de trouver les clés.",
+  "'The car key' = la clé de la voiture.",
+  "où = where. est = is (silent t, except with inversion: Où est-il ?).",
+  "Casual questions put où at the end: Elle est où ? Tu es où ? (often T'es où ?).",
+  "Inversion: Où suis-je ? Où es-tu ?",
+  "de + où → d'où: D'où es-tu ? / Tu es d'où ? = Where are you from?",
+  "Je suis d'ici = I'm from here. Tu n'es pas d'ici ? = Aren't you from here?",
+  "je suis, tu es, il/elle est are all forms of être (to be)."
+ ],
+ "vocab": [
+  ["essayer (de)", "to try (to)"],
+  ["j'essaie", "I try / I'm trying"],
+  ["où", "where"],
+  ["est", "is"],
+  ["tu es", "you are"],
+  ["d'où", "from where"],
+  ["ici", "here"],
+  ["d'ici", "from here"]
+ ],
+ "drills": [
+  ["to try", "essayer", 0],
+  ["I'm trying to find the keys.", "J'essaie de trouver les clés.", 63],
+  ["I'm trying to find my car.", "J'essaie de trouver ma voiture.", 99],
+  ["the car key", "la clé de la voiture", 125],
+  ["I'm trying to find the car key.", "J'essaie de trouver la clé de la voiture.", 157],
+  ["Can you look for my car key?", "Peux-tu chercher la clé de ma voiture ?", 206],
+  ["Can you try to find my car key?", "Peux-tu essayer de trouver la clé de ma voiture ?", 216],
+  ["Where is the car key?", "Où est la clé de la voiture ?", 287],
+  ["Where is it? (fem., casual)", "Elle est où ?", 392],
+  ["Where is he? (inverted)", "Où est-il ?", 410],
+  ["Can I?", "Puis-je ?", 447],
+  ["Where am I?", "Où suis-je ?", 482],
+  ["Where am I? (casual)", "Je suis où ?", 489],
+  ["Where are you? (casual)", "Tu es où ?", 512],
+  ["Where are you? (inverted)", "Où es-tu ?", 527],
+  ["Where are you from?", "D'où es-tu ?", 576],
+  ["Where are you from? (casual)", "Tu es d'où ?", 594],
+  ["I'm from here.", "Je suis d'ici.", 628],
+  ["I'm not from here.", "Je ne suis pas d'ici.", 649],
+  ["Aren't you from here?", "Tu n'es pas d'ici ?", 670]
+ ]
+}

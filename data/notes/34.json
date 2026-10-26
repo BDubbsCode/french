@@ -1,0 +1,43 @@
+{
+ "title": "Agreement, never, I do / I wait",
+ "summary": "Adjectives agree in gender and number: différent / différente / différents / différentes. Only the feminine sounds different. C'est impossible de le faire = It's impossible to do it. ce soir = tonight. ne … jamais = never. For -re verbs, je / tu add a silent s: je fais, tu fais, j'attends, tu attends.",
+ "points": [
+  "Adding -ment to an adjective: parfait → parfaitement (now you hear the t).",
+  "Agreement: il est différent / elle est différente / ils sont différents / elles sont différentes.",
+  "c'est + adjective + de + verb: C'est impossible de le faire.",
+  "de le before a verb doesn't become du. They aren't linked in meaning.",
+  "ce soir = tonight. À ce soir ! = See you tonight!",
+  "ne … jamais = never. ne … jamais rien = never anything: Tu ne fais jamais rien.",
+  "-re verbs: drop -re, add a silent s for je/tu: je fais, j'attends, tu attends (the d is silent too).",
+  "Build sentences one piece at a time, giving each piece your full attention."
+ ],
+ "vocab": [
+  ["parfaitement", "perfectly"],
+  ["différent(e)(s)", "different"],
+  ["normal", "normal"],
+  ["impossible", "impossible"],
+  ["ce soir", "tonight / this evening"],
+  ["je fais / tu fais", "I do / you do"],
+  ["ne … jamais", "never"],
+  ["j'attends / tu attends", "I wait / you wait"]
+ ],
+ "drills": [
+  ["perfectly", "parfaitement", 8],
+  ["It's perfectly legal.", "C'est parfaitement légal.", 31],
+  ["He's different.", "Il est différent.", 48],
+  ["They're different.", "Ils sont différents.", 58],
+  ["She's different.", "Elle est différente.", 82],
+  ["They (fem.) are different.", "Elles sont différentes.", 97],
+  ["Legally, it's impossible.", "Légalement, c'est impossible.", 182],
+  ["It's impossible to do it.", "C'est impossible de le faire.", 192],
+  ["Is it possible to do it tonight?", "C'est possible de le faire ce soir ?", 282],
+  ["I'm not doing it.", "Je ne le fais pas.", 306],
+  ["I'm not doing anything tonight.", "Je ne fais rien ce soir.", 315],
+  ["You never do it.", "Tu ne le fais jamais.", 371],
+  ["You never do anything.", "Tu ne fais jamais rien.", 398],
+  ["I wait.", "J'attends.", 519],
+  ["You wait.", "Tu attends.", 555],
+  ["Are you waiting for me?", "Tu m'attends ?", 565],
+  ["I'm waiting for you.", "Je t'attends.", 571]
+ ]
+}

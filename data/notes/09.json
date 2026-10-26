@@ -1,0 +1,41 @@
+{
+ "title": "The party, to see, him/her/me",
+ "summary": "le and la also mean him and her, and me works the same way. They all go right before the verb: Je veux la voir (I want to see her), Tu peux me voir ? (Can you see me?). You also learn la fête, juste, voir, and how to play with word roots (provoquer, invoquer, révoquer).",
+ "points": [
+  "la fête = the party (English 'fête'). The ê has a 'hat' accent.",
+  "le / la = it, and also him / her. me = me. They all go before the verb: Tu veux le provoquer.",
+  "me becomes m' before a vowel: Peux-tu m'inviter ?",
+  "juste = just. It goes after the first verb: Je veux juste la voir.",
+  "voir = to see (like 'view'). Unlike -er verbs, you hear the r.",
+  "in- at the start of a syllable is nasal: inviter, invoquer."
+ ],
+ "vocab": [
+  ["la fête", "the party"],
+  ["provoquer", "to provoke"],
+  ["invoquer / révoquer", "to invoke / to revoke"],
+  ["juste", "just"],
+  ["voir", "to see"],
+  ["le / la", "him / her (and it)"],
+  ["me / m'", "me"],
+  ["inviter", "to invite"]
+ ],
+ "drills": [
+  ["You must organise the party.", "Tu dois organiser la fête.", 38],
+  ["I have to organise it. (la fête)", "Je dois l'organiser.", 51],
+  ["to provoke", "provoquer", 146],
+  ["You want to provoke him.", "Tu veux le provoquer.", 164],
+  ["You just want to provoke him.", "Tu veux juste le provoquer.", 221],
+  ["to see", "voir", 332],
+  ["I want to see her.", "Je veux la voir.", 340],
+  ["I just want to see her.", "Je veux juste la voir.", 349],
+  ["I want to see him later.", "Je veux le voir plus tard.", 362],
+  ["Do you have to see him?", "Dois-tu le voir ?", 375],
+  ["Do you want to see me?", "Veux-tu me voir ?", 442],
+  ["Can you see me?", "Tu peux me voir ?", 481],
+  ["You have to see me.", "Tu dois me voir.", 499],
+  ["Must you provoke me?", "Dois-tu me provoquer ?", 510],
+  ["to invite", "inviter", 571],
+  ["Can you invite him?", "Peux-tu l'inviter ?", 585],
+  ["Can you invite me?", "Peux-tu m'inviter ?", 610]
+ ]
+}

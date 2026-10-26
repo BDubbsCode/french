@@ -1,0 +1,40 @@
+{
+ "title": "They eat, to forget, what's your name?",
+ "summary": "For -er verbs, ils mangent sounds exactly like il mange. The written -ent is silent. With verbs starting with a vowel you hear the liaison: il oublie vs ils oublient ('il-zoublie'). Outside verbs, -ent sounds like 'an': différent, appartement. Comment tu t'appelles ? = What's your name? Je m'appelle… = My name is…",
+ "points": [
+  "je mange / tu manges / il mange / ils mangent all sound the same. Context tells you who.",
+  "With vowel-initial verbs, liaison shows the plural: elle oublie / elles oublient ('el-zoublie').",
+  "oublier = to forget (like 'oblivion').",
+  "-ent at the end of a non-verb sounds like 'an': différent, un appartement.",
+  "comment = how.",
+  "appeler = to call. The e changes in j'appelle / tu t'appelles.",
+  "Comment tu t'appelles ? = What's your name? (literally 'how do you call yourself?')"
+ ],
+ "vocab": [
+  ["ils mangent", "they eat"],
+  ["oublier", "to forget"],
+  ["pêcher / je pêche", "to fish / I fish"],
+  ["différent", "different"],
+  ["l'appartement (m)", "the apartment"],
+  ["comment", "how"],
+  ["Comment tu t'appelles ?", "What's your name?"],
+  ["Je m'appelle…", "My name is…"]
+ ],
+ "drills": [
+  ["they must", "ils doivent", 24],
+  ["They eat.", "Ils mangent.", 80],
+  ["He forgets.", "Il oublie.", 148],
+  ["They forget.", "Ils oublient.", 181],
+  ["She forgets.", "Elle oublie.", 226],
+  ["I fish.", "Je pêche.", 249],
+  ["She fishes.", "Elle pêche.", 253],
+  ["They fish.", "Ils pêchent.", 262],
+  ["They fish in order to eat.", "Ils pêchent pour manger.", 277],
+  ["different", "différent", 326],
+  ["an apartment", "un appartement", 352],
+  ["I want to find an apartment.", "Je veux trouver un appartement.", 368],
+  ["how", "comment", 387],
+  ["What's your name?", "Comment tu t'appelles ?", 425],
+  ["My name is…", "Je m'appelle…", 446]
+ ]
+}

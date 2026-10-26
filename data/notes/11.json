@@ -1,0 +1,38 @@
+{
+ "title": "1-2-3, she, the birthday party",
+ "summary": "elle = she: elle doit, elle veut. Counting un, deux, trois reviews the main sound patterns. You learn à la fête (to the party), la fête d'anniversaire (birthday party), and that English -ary words often become -aire: nécessaire, contraire, extraordinaire.",
+ "points": [
+  "un, deux, trois = 1, 2, 3. un = nasal un, deux = eu sound with a silent x, trois = oi ('wa').",
+  "elle (she) sounds like 'el'. A vowel followed by a consonant in the same syllable changes its sound.",
+  "elle doit / elle veut = she must / she wants. The t is silent.",
+  "Elle la veut = she wants it (fem.) or she wants her.",
+  "à la fête = to the party. de + anniversaire → d'anniversaire.",
+  "-ary → -aire: anniversaire, nécessaire, contraire, solitaire, extraordinaire.",
+  "Think in syllables and letter combinations, not single letters."
+ ],
+ "vocab": [
+  ["un, deux, trois", "one, two, three"],
+  ["elle", "she"],
+  ["elle doit / elle veut", "she must / she wants"],
+  ["à la fête", "to the party"],
+  ["la fête d'anniversaire", "the birthday party"],
+  ["nécessaire", "necessary"],
+  ["contraire", "contrary"],
+  ["extraordinaire", "extraordinary"]
+ ],
+ "drills": [
+  ["one, two, three", "un, deux, trois", 56],
+  ["she must", "elle doit", 179],
+  ["She must visit.", "Elle doit visiter.", 235],
+  ["she wants", "elle veut", 333],
+  ["She wants it. (masc.)", "Elle le veut.", 337],
+  ["She wants it. (fem.)", "Elle la veut.", 364],
+  ["to the party", "à la fête", 387],
+  ["She wants to invite her to the party.", "Elle veut l'inviter à la fête.", 401],
+  ["She wants to invite me to the party.", "Elle veut m'inviter à la fête.", 432],
+  ["Does she want to invite me to the party?", "Elle veut m'inviter à la fête ?", 444],
+  ["She wants to invite him to the birthday party.", "Elle veut l'inviter à la fête d'anniversaire.", 483],
+  ["necessary", "nécessaire", 523],
+  ["extraordinary", "extraordinaire", 563]
+ ]
+}

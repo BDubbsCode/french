@@ -1,0 +1,32 @@
+{
+ "title": "-ette words, 'it' before the verb",
+ "summary": "Words ending in -ette are feminine: la baguette, la cigarette, la bicyclette. 'It' (le / la / l') goes right before the verb it belongs to: je veux le réparer = I want to repair it, je dois la réparer = I must repair it (the car).",
+ "points": [
+  "-ette words are feminine: la baguette, la cigarette, la bicyclette.",
+  "Use le for masculine things, and also for 'it' in general (getting something done).",
+  "'It' goes just before the verb that acts on it: Je veux le réparer (I want it to-repair).",
+  "le / la become l' before a vowel: Tu dois l'organiser.",
+  "If you hear a final consonant, the word probably ends in -e: la porte, la visite, trente."
+ ],
+ "vocab": [
+  ["la baguette", "the baguette (also: rod, wand)"],
+  ["la cigarette", "the cigarette"],
+  ["la bicyclette", "the bicycle"],
+  ["le dîner", "the dinner"],
+  ["organiser", "to organise"]
+ ],
+ "drills": [
+  ["now", "maintenant", 23],
+  ["I want the baguette.", "Je veux la baguette.", 103],
+  ["I want it. (la baguette)", "Je la veux.", 121],
+  ["Do you want the bicycle?", "Tu veux la bicyclette ?", 211],
+  ["Do you want it? (la bicyclette)", "Tu la veux ?", 220],
+  ["Do you want it? (something general)", "Tu le veux ?", 228],
+  ["I want to repair it.", "Je veux le réparer.", 309],
+  ["I want to prepare it.", "Je veux le préparer.", 314],
+  ["I must repair the car.", "Je dois réparer la voiture.", 348],
+  ["I must repair it. (la voiture)", "Je dois la réparer.", 368],
+  ["the organisation", "l'organisation", 387],
+  ["You must organise it.", "Tu dois l'organiser.", 406]
+ ]
+}

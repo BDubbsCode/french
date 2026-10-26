@@ -1,0 +1,40 @@
+{
+ "title": "Au, du, they, to taste",
+ "summary": "à + le = au, de + le = du: au village, au bureau, le poisson du village (Au revoir = 'to the re-seeing'). ils / elles = they. ils peuvent = they can, where the -ent ending is silent. goûter = to taste / try food, essayer de = to try to do something. perdre = to lose.",
+ "points": [
+  "à + le → au: au village, au bureau. (à la and à l' don't change.)",
+  "de + le → du: du village.",
+  "ils = they (masc. or mixed), elles = they (all female). Both sound like il / elle.",
+  "ils peuvent = they can. -ent on verbs is silent, but you hear the consonant before it.",
+  "Inversion links the t: Pourquoi ne peuvent-ils pas… ?",
+  "goûter = to taste (like 'gusto'). essayer de = to try to do something.",
+  "More f → p: le poisson (fish, Pisces), pêcher (to fish), la plume (feather)."
+ ],
+ "vocab": [
+  ["au / du", "to the / of the (masc.)"],
+  ["Au revoir", "Goodbye"],
+  ["le bureau", "the office / desk"],
+  ["ils / elles", "they"],
+  ["ils peuvent", "they can"],
+  ["le poisson", "the fish"],
+  ["goûter", "to taste / try (food)"],
+  ["pêcher", "to fish"],
+  ["perdre", "to lose"]
+ ],
+ "drills": [
+  ["to the village", "au village", 22],
+  ["Our father doesn't want to go to the village.", "Notre père ne veut pas aller au village.", 56],
+  ["Our father doesn't want to go to the village on foot.", "Notre père ne veut pas aller au village à pied.", 75],
+  ["to the office", "au bureau", 106],
+  ["they can", "ils peuvent", 172],
+  ["Why can't they go to the office?", "Pourquoi ils ne peuvent pas aller au bureau ?", 193],
+  ["Why can't they go to the office? (inverted)", "Pourquoi ne peuvent-ils pas aller au bureau ?", 227],
+  ["from the village", "du village", 305],
+  ["You have to try the fish.", "Tu dois goûter le poisson.", 364],
+  ["You have to try the fish from the village.", "Tu dois goûter le poisson du village.", 379],
+  ["You have to try to fish.", "Tu dois essayer de pêcher.", 437],
+  ["I don't want to lose it.", "Je ne veux pas le perdre.", 539],
+  ["I don't want to lose them.", "Je ne veux pas les perdre.", 552],
+  ["They can't lose.", "Ils ne peuvent pas perdre.", 581]
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Plurals: les, new verbs, liaison",
+ "summary": "New verbs entering French become -er verbs: googler, zapper. Plurals add a silent s, so porte and portes sound the same. You hear the plural in les (the / them). Liaison links the s to a following vowel: les amis ('lay-zami').",
+ "points": [
+  "Three verb endings: -er (most common, and all new verbs), -ir (finir, voir), -re (attendre).",
+  "Inversion (Puis-je…?) is formal. With friends just say Je peux… ?",
+  "Plural nouns add a silent s: la porte → les portes, l'ami → les amis.",
+  "les = the (plural) and them, for both genders.",
+  "Check the gender when using 'it': la for feminine things (Je la veux), le for masculine.",
+  "Liaison: a silent final consonant links to a following vowel when the words belong together: les amis, mon ami."
+ ],
+ "vocab": [
+  ["googler", "to google"],
+  ["zapper", "to change the TV channel"],
+  ["les portes", "the doors"],
+  ["les portables", "the mobiles"],
+  ["les amis", "the friends"]
+ ],
+ "drills": [
+  ["I can google it.", "Je peux le googler.", 107],
+  ["Can I change the channel? (formal)", "Puis-je zapper ?", 127],
+  ["Can I change the channel? (casual)", "Je peux zapper ?", 160],
+  ["I want it. (le portable)", "Je le veux.", 266],
+  ["I want it. (la bicyclette)", "Je la veux.", 286],
+  ["I want them.", "Je les veux.", 335],
+  ["the mobile phones", "les portables", 384],
+  ["the doors", "les portes", 419],
+  ["I can wait for him.", "Je peux l'attendre.", 476],
+  ["Can I wait for him? (formal)", "Puis-je l'attendre ?", 486],
+  ["Can I wait for them? (casual)", "Je peux les attendre ?", 517],
+  ["My friend can wait for you.", "Mon ami peut t'attendre.", 589],
+  ["the friend", "l'ami", 605],
+  ["the friends", "les amis", 616]
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "title": "Them, -ir & -re verbs, can I?",
+ "summary": "les = them (people or things). It sounds like 'lay', which is different from le. Before a vowel the s links as a z: les inviter. Verbs can end in -er, -ir (finir) or -re (attendre = to wait for). 'Can I…?' as an inversion is the special form Puis-je… ?",
+ "points": [
+  "les = them, for both masculine and feminine. Say 'lay', not 'luh', or it sounds like le.",
+  "Liaison: les inviter, les attendre. The s sounds like z.",
+  "Liaison happens mostly between words tightly linked in meaning.",
+  "Three verb endings: -er (confirmer), -ir (finir), -re (attendre).",
+  "attendre = to wait for. No 'for' needed: Je veux l'attendre.",
+  "Puis-je… ? = Can I…? An old form that survives only in this question."
+ ],
+ "vocab": [
+  ["les", "them / the (plural)"],
+  ["finir", "to finish"],
+  ["attendre", "to wait (for)"],
+  ["Puis-je… ?", "Can I…?"]
+ ],
+ "drills": [
+  ["She wants to see me.", "Elle veut me voir.", 74],
+  ["She wants to see you.", "Elle veut te voir.", 87],
+  ["She wants to see him.", "Elle veut le voir.", 97],
+  ["She wants to see them.", "Elle veut les voir.", 123],
+  ["I must see them.", "Je dois les voir.", 186],
+  ["He has to see them.", "Il doit les voir.", 207],
+  ["He has to see him.", "Il doit le voir.", 218],
+  ["He has to see her.", "Il doit la voir.", 228],
+  ["He wants to invite them.", "Il veut les inviter.", 269],
+  ["to finish", "finir", 383],
+  ["Everybody wants to finish it later.", "Tout le monde veut le finir plus tard.", 388],
+  ["to wait (for)", "attendre", 449],
+  ["I want to wait for him.", "Je veux l'attendre.", 512],
+  ["I want to wait for them.", "Je veux les attendre.", 532],
+  ["I can wait for them.", "Je peux les attendre.", 549],
+  ["Can I wait for them?", "Puis-je les attendre ?", 645],
+  ["Can I wait for you?", "Puis-je t'attendre ?", 652],
+  ["I can wait for you.", "Je peux t'attendre.", 664]
+ ]
+}

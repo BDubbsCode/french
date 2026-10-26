@@ -1,0 +1,40 @@
+{
+ "title": "What, I know, why, to come",
+ "summary": "que = what (at the start, with inversion: Que manges-tu ?). quoi = what after the verb (casual: Tu manges quoi ?). que also means 'that': Je sais que tu veux manger. savoir: je sais, tu sais. venir = to come. pourquoi = why (literally 'for what'), and it doesn't need inversion.",
+ "points": [
+  "Que + inversion is required: Que manges-tu ? (not 'Que tu manges').",
+  "quoi = what at the end, or as an exclamation: Tu manges quoi ? Tu sais quoi ? Quoi ?",
+  "que = that: Je sais que tu veux venir.",
+  "je sais / tu sais = I know / you know (like 'sapiens').",
+  "'Do you know?' needs an object in French: Tu le sais ?",
+  "venir = to come (souvenir, avenue, convenient).",
+  "pourquoi = why. No inversion needed: Pourquoi tu ne veux pas manger ?",
+  "ne … rien around veux: Tu ne veux rien manger."
+ ],
+ "vocab": [
+  ["que", "what / that"],
+  ["quoi", "what (after the verb, or alone)"],
+  ["je sais / tu sais", "I know / you know"],
+  ["Je ne sais pas.", "I don't know."],
+  ["venir", "to come"],
+  ["Tu sais quoi ?", "You know what?"],
+  ["pourquoi", "why"],
+  ["un je-ne-sais-quoi", "a certain something"]
+ ],
+ "drills": [
+  ["Are you eating?", "Manges-tu ?", 25],
+  ["What are you eating?", "Que manges-tu ?", 48],
+  ["I know.", "Je sais.", 72],
+  ["I don't know.", "Je ne sais pas.", 90],
+  ["I know nothing.", "Je ne sais rien.", 98],
+  ["I know that you want to eat.", "Je sais que tu veux manger.", 117],
+  ["to come", "venir", 134],
+  ["I know that you want to come.", "Je sais que tu veux venir.", 178],
+  ["Do you know (it)?", "Tu le sais ?", 213],
+  ["What do you know?", "Que sais-tu ?", 230],
+  ["You know what?", "Tu sais quoi ?", 268],
+  ["What are you eating? (casual)", "Tu manges quoi ?", 352],
+  ["Why don't you want to eat?", "Pourquoi tu ne veux pas manger ?", 387],
+  ["Why don't you want to eat anything?", "Pourquoi tu ne veux rien manger ?", 434]
+ ]
+}

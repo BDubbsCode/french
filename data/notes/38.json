@@ -1,0 +1,47 @@
+{
+ "title": "The future: tomorrow & je vais",
+ "summary": "Two ways to talk about the future. (1) Present tense plus a time word: Je le fais demain. Nous les vendons lundi. (2) aller + verb, like 'going to': Nous allons lui demander. Je vais l'acheter. Tu vas les acheter ? aller is irregular: je vais, tu vas, nous allons.",
+ "points": [
+  "Present + time word = future: Je le fais ce soir / demain.",
+  "demain = tomorrow. lundi = Monday, and also 'on Monday' (no word for 'on').",
+  "acheter: j'achète, ils achètent, nous achetons (weak middle e).",
+  "aller + infinitive = going to: Nous allons lui demander. Je vais l'acheter.",
+  "aller: je vais, tu vas, nous allons (je vais / tu vas come from a different old verb).",
+  "lui / leur = to / for him, her, them: Je vais lui acheter quelque chose.",
+  "quelque chose de bien / de gentil = something nice.",
+  "les lunettes = glasses (from la lune, moon). les lunettes de soleil = sunglasses."
+ ],
+ "vocab": [
+  ["demain", "tomorrow"],
+  ["lundi", "Monday / on Monday"],
+  ["la lune", "the moon"],
+  ["les lunettes (de soleil)", "(sun)glasses"],
+  ["nous achetons", "we buy"],
+  ["nous allons", "we go / we're going to"],
+  ["je vais / tu vas", "I go / you go"],
+  ["quelque chose de gentil", "something nice"],
+  ["Bon voyage !", "Have a good trip!"]
+ ],
+ "drills": [
+  ["tonight", "ce soir", 0],
+  ["I'm doing it tonight.", "Je le fais ce soir.", 16],
+  ["tomorrow", "demain", 27],
+  ["I'm doing it tomorrow.", "Je le fais demain.", 55],
+  ["We'll sell them tomorrow.", "Nous les vendons demain.", 83],
+  ["We'll sell them the car tomorrow.", "Nous leur vendons la voiture demain.", 102],
+  ["They'll sell us the car on Monday.", "Ils nous vendent la voiture lundi.", 174],
+  ["I buy.", "J'achète.", 267],
+  ["They buy.", "Ils achètent.", 288],
+  ["We buy.", "Nous achetons.", 311],
+  ["We're buying the glasses on Monday.", "Nous achetons les lunettes lundi.", 324],
+  ["We're going to ask her.", "Nous allons lui demander.", 413],
+  ["We're going to ask them.", "Nous allons leur demander.", 478],
+  ["I'm going to buy it.", "Je vais l'acheter.", 523],
+  ["I'm going to buy him something.", "Je vais lui acheter quelque chose.", 532],
+  ["Are you going to buy it?", "Tu vas l'acheter ?", 562],
+  ["Are you going to buy them?", "Tu vas les acheter ?", 570],
+  ["Are you going to buy them something?", "Tu vas leur acheter quelque chose ?", 588],
+  ["I'm going to buy him something nice.", "Je vais lui acheter quelque chose de gentil.", 635],
+  ["Are you going to buy her something nice?", "Vas-tu lui acheter quelque chose de gentil ?", 650]
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "title": "Tu forms, to live, but",
+ "summary": "The tu form of -er verbs also sounds like the verb without -er, but it's written with -es: tu manges, tu fermes. habiter = to live (somewhere): Tu habites où ? Il n'habite pas ici. mais = but: Je ne suis pas d'ici, mais j'habite ici.",
+ "points": [
+  "je mange, tu manges, il/elle mange all sound the same. Only the spelling differs (-e, -es, -e).",
+  "Questions: Manges-tu ? or just Tu manges ?",
+  "habiter = to live somewhere (like 'habitat'). The h is silent, so: j'habite, n'habite.",
+  "Où habites-tu ? / Tu habites où ? = Where do you live?",
+  "Some liaisons are optional: pas ici.",
+  "mais = but (ai sounds like è)."
+ ],
+ "vocab": [
+  ["tu manges", "you eat"],
+  ["je ferme / tu fermes", "I close / you close"],
+  ["habiter", "to live (somewhere)"],
+  ["ici", "here"],
+  ["mais", "but"]
+ ],
+ "drills": [
+  ["You eat.", "Tu manges.", 29],
+  ["Are you eating?", "Manges-tu ?", 41],
+  ["I'm closing it. (le)", "Je le ferme.", 102],
+  ["I'm closing it. (la porte)", "Je la ferme.", 112],
+  ["He closes.", "Il ferme.", 125],
+  ["You close.", "Tu fermes.", 137],
+  ["Are you locking it? (la porte)", "Tu la fermes à clé ?", 163],
+  ["to live (somewhere)", "habiter", 178],
+  ["You live.", "Tu habites.", 195],
+  ["Where do you live?", "Où habites-tu ?", 206],
+  ["Where do you live? (casual)", "Tu habites où ?", 219],
+  ["He lives here.", "Il habite ici.", 238],
+  ["He doesn't live here.", "Il n'habite pas ici.", 246],
+  ["I'm from here.", "Je suis d'ici.", 317],
+  ["I'm not from here.", "Je ne suis pas d'ici.", 325],
+  ["I'm not from here, but I live here.", "Je ne suis pas d'ici, mais j'habite ici.", 361]
+ ]
+}

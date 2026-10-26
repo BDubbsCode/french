@@ -1,0 +1,39 @@
+{
+ "title": "Explain, later, to lock",
+ "summary": "Words are built from parts: com-pliquer (to complicate) and ex-pliquer (to explain) share pliquer, 'to fold'. You also learn tard (late), plus tard (later), un peu de (a bit of) and fermer à clé (to lock).",
+ "points": [
+  "de = of: un peu de gâteau = a bit of cake.",
+  "explication → expliquer (to explain), complication → compliquer. The m of com- is barely pronounced.",
+  "Taking words apart helps you remember them better than memorising them.",
+  "tard = late (the d is silent, like 'tardy'). plus tard = later (literally 'more late'). The s of plus is silent here.",
+  "fermer à clé = to lock (literally 'close with key'). clé = key.",
+  "À plus tard ! = See you later!"
+ ],
+ "vocab": [
+  ["un peu de…", "a bit of…"],
+  ["expliquer", "to explain"],
+  ["compliquer", "to complicate"],
+  ["plier", "to fold"],
+  ["le pantalon", "the trousers"],
+  ["tard", "late"],
+  ["plus tard", "later"],
+  ["la clé", "the key"],
+  ["fermer à clé", "to lock"],
+  ["À plus tard !", "See you later!"]
+ ],
+ "drills": [
+  ["Do you want a bit of cake?", "Tu veux un peu de gâteau ?", 24],
+  ["I want to order the cake.", "Je veux commander le gâteau.", 56],
+  ["I can close the door.", "Je peux fermer la porte.", 75],
+  ["to explain", "expliquer", 153],
+  ["Can you explain a little?", "Peux-tu expliquer un peu ?", 193],
+  ["Can you fold the trousers?", "Peux-tu plier le pantalon ?", 300],
+  ["I can reserve something later.", "Je peux réserver quelque chose plus tard.", 388],
+  ["Can you organise something later?", "Peux-tu organiser quelque chose plus tard ?", 414],
+  ["Can you order something later?", "Peux-tu commander quelque chose plus tard ?", 433],
+  ["I want to reserve something a little later.", "Je veux réserver quelque chose un peu plus tard.", 447],
+  ["You can lock the door.", "Tu peux fermer la porte à clé.", 513],
+  ["You can lock the door later.", "Tu peux fermer la porte à clé plus tard.", 531],
+  ["See you later!", "À plus tard !", 555]
+ ]
+}

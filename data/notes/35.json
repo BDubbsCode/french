@@ -1,0 +1,45 @@
+{
+ "title": "-re verbs in the present, not anymore",
+ "summary": "-re verbs, singular: drop -re and the consonant before it in sound: perdre → je perds, tu perds, il perd. vendre → je vends, il vend. attendre → j'attends, il attend. In the plural, -re verbs act like -er verbs: ils perdent, ils vendent, ils attendent (now you hear the d). ne … plus = not anymore: Elle n'attend plus.",
+ "points": [
+  "-re verbs: je / tu add a silent s, il / elle add nothing: je perds, tu perds, il perd. All sound like 'per'.",
+  "-er verbs only lose -er in sound. -re verbs lose -re and the consonant before it.",
+  "they: ils perdent, ils vendent, ils attendent. The -ent makes the d audible.",
+  "tout le temps = all the time. encore = again.",
+  "vendre = to sell (like 'vendor').",
+  "ne … plus = not anymore / no longer: Elle n'attend plus."
+ ],
+ "vocab": [
+  ["je perds / il perd", "I lose / he loses"],
+  ["tout le temps", "all the time"],
+  ["encore", "again"],
+  ["vendre", "to sell"],
+  ["je vends / ils vendent", "I sell / they sell"],
+  ["ils attendent", "they wait"],
+  ["ne … plus", "not anymore, no longer"]
+ ],
+ "drills": [
+  ["I lose.", "Je perds.", 19],
+  ["I never lose.", "Je ne perds jamais.", 42],
+  ["I never lose anything.", "Je ne perds jamais rien.", 52],
+  ["You lose.", "Tu perds.", 63],
+  ["all the time", "tout le temps", 79],
+  ["You lose them all the time.", "Tu les perds tout le temps.", 91],
+  ["He loses.", "Il perd.", 120],
+  ["He's losing again.", "Il perd encore.", 154],
+  ["Everybody's losing again.", "Tout le monde perd encore.", 161],
+  ["to sell", "vendre", 210],
+  ["I sell.", "Je vends.", 226],
+  ["You sell.", "Tu vends.", 230],
+  ["She sells.", "Elle vend.", 239],
+  ["They buy.", "Ils achètent.", 317],
+  ["They sell.", "Ils vendent.", 334],
+  ["You never wait.", "Tu n'attends jamais.", 367],
+  ["He's waiting for me.", "Il m'attend.", 376],
+  ["They're waiting for me.", "Ils m'attendent.", 400],
+  ["What are they waiting for?", "Qu'est-ce qu'ils attendent ?", 430],
+  ["What is he waiting for?", "Qu'est-ce qu'il attend ?", 455],
+  ["She's not waiting anymore.", "Elle n'attend plus.", 476],
+  ["They (fem.) aren't waiting for you any longer.", "Elles ne t'attendent plus.", 501]
+ ]
+}

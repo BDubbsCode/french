@@ -1,0 +1,34 @@
+{
+ "title": "F → P, to speak, on foot",
+ "summary": "Many English f-words are French p-words: for → pour, few → peu, foot → pied, father → père, fish → poisson. parler = to speak: je parle, tu parles, il parle. De quoi tu parles ? = What are you talking about? aller à pied = to go on foot.",
+ "points": [
+  "f ↔ p shift: pour (for), peu (few), pied (foot), père (father, like 'paternal').",
+  "parler = to speak: je parle, tu parles, il/elle parle.",
+  "de quoi = about what: De quoi tu parles ? / De quoi parles-tu ?",
+  "Like pourquoi, de quoi doesn't need inversion.",
+  "le français = French (language). You can say parler français or parler le français.",
+  "à pied = on foot. aller à la maison = to go home (to the house).",
+  "Some liaisons are optional: pas aller."
+ ],
+ "vocab": [
+  ["pour", "for"],
+  ["le pied", "the foot"],
+  ["à pied", "on foot"],
+  ["parler", "to speak"],
+  ["de quoi", "about what"],
+  ["le père", "the father"],
+  ["le français", "French (language)"]
+ ],
+ "drills": [
+  ["I speak.", "Je parle.", 112],
+  ["He speaks.", "Il parle.", 131],
+  ["You speak.", "Tu parles.", 140],
+  ["Why are you speaking?", "Pourquoi tu parles ?", 198],
+  ["What are you talking about?", "De quoi tu parles ?", 227],
+  ["my father", "mon père", 280],
+  ["our father", "notre père", 284],
+  ["Our father doesn't speak French.", "Notre père ne parle pas français.", 298],
+  ["to go on foot", "aller à pied", 330],
+  ["I don't want to go to the house on foot.", "Je ne veux pas aller à la maison à pied.", 336]
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "title": "Everybody, my & your, liaison",
+ "summary": "With il/elle the verbs end in a silent t: il veut, elle peut, il doit. tout le monde (everybody) works like 'he'. mon = my, ton = your. Before a vowel the silent n comes back and joins the next word: mon ami, ton ami. This linking is called liaison.",
+ "points": [
+  "il / elle forms end in a silent t: veut, peut, doit.",
+  "tout le monde = everybody (literally 'all the world'). It takes the il form: Tout le monde veut le voir.",
+  "mon = my, ton = your (to a friend). Both are nasal.",
+  "Liaison: a silent consonant is pronounced when the next word starts with a vowel and they belong together: mon ami ('mo-nami').",
+  "Questions can just use your voice: Ton ami peut le porter ?"
+ ],
+ "vocab": [
+  ["il veut / elle peut / il doit", "he wants / she can / he must"],
+  ["tout le monde", "everybody"],
+  ["le monde", "the world"],
+  ["mon", "my"],
+  ["ton", "your (informal)"],
+  ["l'ami", "the friend"],
+  ["mon ami / ton ami", "my friend / your friend"]
+ ],
+ "drills": [
+  ["he wants", "il veut", 16],
+  ["everybody", "tout le monde", 67],
+  ["Everybody wants to see it.", "Tout le monde veut le voir.", 127],
+  ["my mobile", "mon portable", 198],
+  ["my friend", "mon ami", 246],
+  ["Can you see my friend?", "Peux-tu voir mon ami ?", 277],
+  ["Can you see my mobile?", "Peux-tu voir mon portable ?", 288],
+  ["My friend wants it.", "Mon ami le veut.", 330],
+  ["My friend wants to invite you.", "Mon ami veut t'inviter.", 361],
+  ["your mobile", "ton portable", 375],
+  ["your friend", "ton ami", 406],
+  ["Your friend has to carry it.", "Ton ami doit le porter.", 445],
+  ["Does your friend want to carry it?", "Ton ami veut le porter ?", 460],
+  ["Can your friend carry it?", "Ton ami peut le porter ?", 484]
+ ]
+}

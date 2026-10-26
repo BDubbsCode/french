@@ -1,0 +1,40 @@
+{
+ "title": "Ce que, because, only, bigger than",
+ "summary": "ce que = what, when it isn't a question: Je sais ce que tu veux. parce que = because. penser = to think. partir = to leave, bientôt = soon. ne … que = only: Il ne parle que le français. que also means 'than': Ma maison est plus grande que ta maison.",
+ "points": [
+  "ce que = 'the thing that': Je sais ce que tu penses (what you think) vs Je sais que tu penses (that you think).",
+  "Say ce (soft e) and sais (è) carefully. They sound different.",
+  "parce que = because (by way of what).",
+  "l'hôpital is already contracted, so it stays à l'hôpital (no au).",
+  "ne … que = only (nothing but): Il ne parle que le français.",
+  "plus … que = more … than: plus grande que.",
+  "Adjectives agree: grand (m) / grande (f), ma maison est grande."
+ ],
+ "vocab": [
+  ["ce que", "what (not a question)"],
+  ["penser", "to think"],
+  ["parce que", "because"],
+  ["partir", "to leave"],
+  ["bientôt", "soon"],
+  ["ne … que", "only"],
+  ["grand / grande", "big"],
+  ["plus … que", "more … than"]
+ ],
+ "drills": [
+  ["I know what you want.", "Je sais ce que tu veux.", 42],
+  ["I know that you want it.", "Je sais que tu le veux.", 68],
+  ["to think", "penser", 79],
+  ["You think.", "Tu penses.", 89],
+  ["I know what you're thinking.", "Je sais ce que tu penses.", 95],
+  ["You don't know what I'm thinking.", "Tu ne sais pas ce que je pense.", 128],
+  ["Do you know what you have to do?", "Tu sais ce que tu dois faire ?", 148],
+  ["because", "parce que", 163],
+  ["I can't eat because I have to go to the hospital.", "Je ne peux pas manger parce que je dois aller à l'hôpital.", 224],
+  ["to leave", "partir", 258],
+  ["soon", "bientôt", 271],
+  ["I can't do it now because I have to leave soon.", "Je ne peux pas le faire maintenant parce que je dois partir bientôt.", 282],
+  ["He only speaks French.", "Il ne parle que le français.", 408],
+  ["my house", "ma maison", 486],
+  ["My house is bigger than your house.", "Ma maison est plus grande que ta maison.", 502]
+ ]
+}

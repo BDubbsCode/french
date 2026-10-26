@@ -1,0 +1,38 @@
+{
+ "title": "Port- words, false friends, -ité",
+ "summary": "From porter you get exporter, importer, transporter and emporter (à emporter = to take away). Watch out for false friends: supporter means to put up with, not to support. You also learn bien (well), se comporter (to behave), saisir (to seize), and that -ity → -ité (feminine).",
+ "points": [
+  "port- words: exporter, importer, déporter, transporter, emporter.",
+  "À emporter = to take away (food).",
+  "False friend: supporter = to tolerate / put up with. Je peux le supporter = I can put up with him.",
+  "bien = well. It goes before the verb that follows: Je dois bien me comporter.",
+  "-ity → -ité, always feminine: la possibilité, la probabilité, la nécessité, l'opportunité.",
+  "saisir = to seize. ai sounds like è. A single s between vowels sounds like z."
+ ],
+ "vocab": [
+  ["exporter / importer", "to export / to import"],
+  ["à emporter", "to take away (food)"],
+  ["transporter", "to transport"],
+  ["supporter", "to tolerate, put up with (false friend!)"],
+  ["bien", "well"],
+  ["se comporter", "to behave"],
+  ["l'opportunité", "the opportunity"],
+  ["la possibilité", "the possibility"],
+  ["la nécessité", "the necessity"],
+  ["saisir", "to seize"]
+ ],
+ "drills": [
+  ["to carry", "porter", 9],
+  ["to export", "exporter", 31],
+  ["to import", "importer", 62],
+  ["to take away (food)", "à emporter", 92],
+  ["to transport", "transporter", 134],
+  ["I can put up with him.", "Je peux le supporter.", 193],
+  ["I have to behave myself.", "Je dois bien me comporter.", 295],
+  ["the possibility", "la possibilité", 387],
+  ["the probability", "la probabilité", 404],
+  ["the necessity", "la nécessité", 420],
+  ["You have to seize the opportunity.", "Tu dois saisir l'opportunité.", 453],
+  ["He has to seize the opportunity.", "Il doit saisir l'opportunité.", 488]
+ ]
+}

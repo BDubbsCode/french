@@ -1,0 +1,44 @@
+{
+ "title": "Us, to each other, lui & leur",
+ "summary": "nous also means us, to us and each other: Nous nous parlons (we're talking to each other). me / te / nous already include 'to'. The l-words change for 'to': lui = to him / to her, leur = to them. Je veux lui envoyer un message. Je veux leur envoyer un message. pouvoir: nous pouvons. cuisiner = to cook.",
+ "points": [
+  "nous + vowel → liaison: nous oublions ('nou-zoublions').",
+  "Negatives wrap the verb: Nous n'oublions jamais rien.",
+  "Inversion with ils: Nous oublient-ils ? (Are they forgetting us?).",
+  "nous = we / us / to us / each other: Nous nous parlons.",
+  "me, te, nous mean both 'me' and 'to me' etc.",
+  "But le / la → lui (to him / her), and les → leur (to them).",
+  "Je veux les envoyer (send them) vs Je veux leur envoyer un message (send to them).",
+  "Tip: when you start an l-sound, check: do I mean him, or to him?",
+  "pouvoir is irregular: je peux, il peut, nous pouvons, ils peuvent."
+ ],
+ "vocab": [
+  ["nous oublions", "we forget"],
+  ["Nous nous parlons.", "We're talking to each other."],
+  ["lui", "to him / to her"],
+  ["leur", "to them"],
+  ["cuisiner", "to cook"],
+  ["nous pouvons", "we can"]
+ ],
+ "drills": [
+  ["We forget.", "Nous oublions.", 14],
+  ["We don't forget.", "Nous n'oublions pas.", 49],
+  ["We don't forget anything.", "Nous n'oublions rien.", 80],
+  ["We never forget.", "Nous n'oublions jamais.", 89],
+  ["We never forget anything.", "Nous n'oublions jamais rien.", 99],
+  ["Are they forgetting us?", "Nous oublient-ils ?", 114],
+  ["We speak a little French.", "Nous parlons un peu français.", 254],
+  ["We're talking to each other.", "Nous nous parlons.", 278],
+  ["a car", "une voiture", 319],
+  ["We sell.", "Nous vendons.", 347],
+  ["They're selling us a car.", "Ils nous vendent une voiture.", 366],
+  ["I want to send her a message.", "Je veux lui envoyer un message.", 476],
+  ["I want to send them. (things)", "Je veux les envoyer.", 517],
+  ["I want to send them a message.", "Je veux leur envoyer un message.", 561],
+  ["to cook", "cuisiner", 623],
+  ["I can cook them something.", "Je peux leur cuisiner quelque chose.", 654],
+  ["We can cook him something.", "Nous pouvons lui cuisiner quelque chose.", 710],
+  ["We can cook them something.", "Nous pouvons leur cuisiner quelque chose.", 722],
+  ["We can cook them. (things)", "Nous pouvons les cuisiner.", 741]
+ ]
+}

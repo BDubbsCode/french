@@ -1,0 +1,50 @@
+{
+ "title": "C'est, -ant/-ent, -al, adjective gender",
+ "summary": "This lesson tackles the masculine/feminine question head-on. c'est = it is (for a situation). For a named thing, use il est / elle est, matching its gender. Adjectives add -e for feminine, which makes you hear the final consonant: parfait → parfaite, important → importante, grand → grande. English -ant/-ent and -al words carry over: important, urgent, patient, vital, légal, idéal. -ly → -ment: généralement, totalement.",
+ "points": [
+  "c'est + adjective = it's (a situation): C'est important. C'est parfait.",
+  "Referring to a named noun? Use its gender: le garage → Il est parfait. la réunion → Elle est importante.",
+  "Feminine adjectives add -e, so the silent consonant is now heard: parfait / parfaite, urgent / urgente, grand / grande.",
+  "The masculine form is also the neutral one (c'est urgent).",
+  "ils sont / elles sont = they are. Plural adjectives add a silent s.",
+  "-ant / -ent words carry over (the t is silent): patient, important, arrogant, urgent.",
+  "-al words carry over and the l is pronounced: vital, légal, idéal, normal, général.",
+  "-ly → -ment: généralement, totalement, idéalement.",
+  "trop = too: trop grand(e)."
+ ],
+ "vocab": [
+  ["c'est", "it is / that is"],
+  ["ils sont / elles sont", "they are"],
+  ["important(e)", "important"],
+  ["urgent(e)", "urgent"],
+  ["patient(e)", "patient"],
+  ["légal / idéal / vital", "legal / ideal / vital"],
+  ["généralement", "generally"],
+  ["parfait(e)", "perfect"],
+  ["le rendez-vous", "the appointment / meeting"],
+  ["la réunion", "the meeting"],
+  ["trop", "too (much)"]
+ ],
+ "drills": [
+  ["It's different.", "C'est différent.", 89],
+  ["He's patient.", "Il est patient.", 129],
+  ["It's important.", "C'est important.", 172],
+  ["He's arrogant.", "Il est arrogant.", 185],
+  ["They're arrogant.", "Ils sont arrogants.", 221],
+  ["This is a hospital.", "C'est un hôpital.", 270],
+  ["It's vital.", "C'est vital.", 358],
+  ["It's not legal.", "Ce n'est pas légal.", 365],
+  ["It's not ideal.", "Ce n'est pas idéal.", 401],
+  ["It's urgent.", "C'est urgent.", 465],
+  ["It's urgent. (le rendez-vous)", "Il est urgent.", 497],
+  ["Generally, he's at the hospital.", "Généralement, il est à l'hôpital.", 548],
+  ["totally", "totalement", 577],
+  ["It's perfect. (situation)", "C'est parfait.", 602],
+  ["It's perfect. (le garage)", "Il est parfait.", 621],
+  ["It's perfect. (la voiture)", "Elle est parfaite.", 707],
+  ["It's important. (la réunion)", "Elle est importante.", 749],
+  ["It's urgent. (la réunion)", "Elle est urgente.", 774],
+  ["The house is too big.", "La maison est trop grande.", 824],
+  ["The garage is too big.", "Le garage est trop grand.", 843]
+ ]
+}

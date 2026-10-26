@@ -1,0 +1,38 @@
+{
+ "title": "To look for, my wife, our",
+ "summary": "chercher = to look for (no 'for' needed). 'My' and 'your' match the noun's gender: mon / ton for masculine, ma / ta for feminine: ma femme, ta voiture. notre = our (both genders). à = to a person: Je veux l'envoyer à mon ami.",
+ "points": [
+  "Don't guess: use what you know. Most verbs end in -er, so a 'trove' → trouver.",
+  "chercher = to search / look for: Ton ami doit chercher les clés.",
+  "mon / ton (masc.), ma / ta (fem.): ma femme, ma voiture, ton mari.",
+  "la femme = woman and wife.",
+  "notre = our, for both genders: notre voiture, notre message.",
+  "monsieur = 'my sire', madame = 'my lady', Notre-Dame = 'Our Lady'.",
+  "Contraction (l'envoyer) and liaison (les envoyer) tend to happen in the same places."
+ ],
+ "vocab": [
+  ["chercher", "to look for"],
+  ["ma / ta", "my / your (fem.)"],
+  ["la femme", "the woman / wife"],
+  ["ma femme", "my wife"],
+  ["notre", "our"],
+  ["monsieur / madame", "sir / madam"],
+  ["à", "to"]
+ ],
+ "drills": [
+  ["to find", "trouver", 0],
+  ["to look for", "chercher", 60],
+  ["your friend", "ton ami", 137],
+  ["Your friend must look for the keys.", "Ton ami doit chercher les clés.", 157],
+  ["your husband", "ton mari", 180],
+  ["my wife", "ma femme", 204],
+  ["Can you look for my wife? I can't find her.", "Peux-tu chercher ma femme ? Je ne peux pas la trouver.", 222],
+  ["Can you look for my car?", "Peux-tu chercher ma voiture ?", 299],
+  ["I can't look for the car now.", "Je ne peux pas chercher la voiture maintenant.", 323],
+  ["our car", "notre voiture", 437],
+  ["I have to look for our car.", "Je dois chercher notre voiture.", 476],
+  ["You have to send our message.", "Tu dois envoyer notre message.", 512],
+  ["I want to send it to my friend.", "Je veux l'envoyer à mon ami.", 538],
+  ["You must send them to our friend.", "Tu dois les envoyer à notre ami.", 560]
+ ]
+}

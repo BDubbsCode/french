@@ -1,0 +1,33 @@
+{
+ "title": "Can't find it, to park, the house",
+ "summary": "Je ne peux pas + verb = I can't…: Je ne peux pas le trouver (I can't find it). trouver = to find, garer = to park (from la gare), la maison = the house. 'The house keys' is 'the keys of the house': les clés de la maison. In speech the ne is often dropped: je peux pas.",
+ "points": [
+  "Negative + object: Je ne peux pas l'envoyer. Je ne peux pas te l'envoyer.",
+  "garer = to park (from la gare). Je dois garer la voiture.",
+  "Casual speech drops ne: Je peux pas garer la voiture.",
+  "trouver = to find (a 'treasure trove' is a treasure find).",
+  "X of Y instead of English compound nouns: les clés de la maison = the house keys.",
+  "ne sounds like je: a soft e."
+ ],
+ "vocab": [
+  ["garer", "to park"],
+  ["trouver", "to find"],
+  ["la clé / les clés", "the key / the keys"],
+  ["la maison", "the house"],
+  ["les clés de la maison", "the house keys"]
+ ],
+ "drills": [
+  ["I can't send it.", "Je ne peux pas l'envoyer.", 17],
+  ["I can't send it to you.", "Je ne peux pas te l'envoyer.", 40],
+  ["She wants to go to the station.", "Elle veut aller à la gare.", 81],
+  ["I must park the car.", "Je dois garer la voiture.", 119],
+  ["I can't park the car.", "Je ne peux pas garer la voiture.", 131],
+  ["I can't park the car. (casual)", "Je peux pas garer la voiture.", 154],
+  ["I can't find it.", "Je ne peux pas le trouver.", 207],
+  ["He can't find the keys.", "Il ne peut pas trouver les clés.", 259],
+  ["He can't find them.", "Il ne peut pas les trouver.", 276],
+  ["My husband can't find the keys.", "Mon mari ne peut pas trouver les clés.", 299],
+  ["My husband can't find the house keys.", "Mon mari ne peut pas trouver les clés de la maison.", 337],
+  ["My husband can't find them.", "Mon mari ne peut pas les trouver.", 365]
+ ]
+}

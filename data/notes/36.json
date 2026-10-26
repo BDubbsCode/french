@@ -1,0 +1,42 @@
+{
+ "title": "We: nous …-ons, I wonder",
+ "summary": "nous (we) takes -ons, the first verb ending you actually hear: nous demandons, nous vendons, nous trouvons, nous perdons. It's the same for -er and -re verbs. se demander = to wonder: Je me demande si… (I wonder if…). comprendre = to understand: je comprends, il comprend.",
+ "points": [
+  "Plural forms are the same for -er and -re verbs: ils demandent / ils vendent, nous demandons / nous vendons.",
+  "nous = we, also us / ourselves.",
+  "-ons is pronounced 'on' (nasal).",
+  "demander = to ask (for). se demander = to wonder (ask oneself): Je me demande. Nous nous demandons.",
+  "si = if: Je me demande si elle veut venir.",
+  "comprendre = to understand: je comprends, tu comprends, il comprend (the d is silent).",
+  "Before using a verb, check its ending (-er or -re). That tells you how it sounds."
+ ],
+ "vocab": [
+  ["nous", "we / us"],
+  ["demander", "to ask (for)"],
+  ["se demander", "to wonder"],
+  ["si", "if"],
+  ["nous vendons", "we sell"],
+  ["comprendre", "to understand"],
+  ["je comprends", "I understand"],
+  ["nous trouvons / nous perdons", "we find / we lose"]
+ ],
+ "drills": [
+  ["to ask", "demander", 12],
+  ["They ask.", "Ils demandent.", 75],
+  ["They sell.", "Ils vendent.", 88],
+  ["We ask.", "Nous demandons.", 146],
+  ["We sell.", "Nous vendons.", 172],
+  ["I ask.", "Je demande.", 185],
+  ["I wonder.", "Je me demande.", 214],
+  ["I wonder if she wants to come.", "Je me demande si elle veut venir.", 235],
+  ["We wonder.", "Nous nous demandons.", 261],
+  ["We wonder if you want to sell it.", "Nous nous demandons si tu veux le vendre.", 280],
+  ["I think.", "Je pense.", 355],
+  ["I understand.", "Je comprends.", 366],
+  ["You understand.", "Tu comprends.", 394],
+  ["She understands.", "Elle comprend.", 403],
+  ["He finds. / He loses.", "Il trouve. / Il perd.", 440],
+  ["They find. / They lose.", "Ils trouvent. / Ils perdent.", 469],
+  ["We find. / We lose.", "Nous trouvons. / Nous perdons.", 490]
+ ]
+}

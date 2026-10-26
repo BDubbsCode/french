@@ -1,0 +1,33 @@
+{
+ "title": "I must, the car",
+ "summary": "je dois / tu dois = I must / you must. It literally means 'I owe', so it also works for money: tu dois trente euros. You learn réparer, préparer, comparer, la voiture and la machine, and why a final e makes you pronounce the consonant before it.",
+ "points": [
+  "je dois (I must / I have to / I owe) is related to 'debt'. The s is silent.",
+  "A consonant followed by a final e IS pronounced: la porte, trente, la machine. Without the e it's usually silent.",
+  "Spot building blocks like ré- / re- and swap them: réparer, préparer, comparer.",
+  "oi sounds like 'wa': dois, voiture.",
+  "Take your time: pause the track and build each sentence one piece at a time."
+ ],
+ "vocab": [
+  ["je dois / tu dois", "I must / you must (also: I owe / you owe)"],
+  ["réparer", "to repair"],
+  ["préparer", "to prepare"],
+  ["comparer", "to compare"],
+  ["trente", "thirty"],
+  ["les euros", "euros"],
+  ["la voiture", "the car"],
+  ["la machine", "the machine"]
+ ],
+ "drills": [
+  ["I must repair something.", "Je dois réparer quelque chose.", 222],
+  ["I have to repair something later.", "Je dois réparer quelque chose plus tard.", 272],
+  ["You owe thirty euros.", "Tu dois trente euros.", 326],
+  ["You have to repair the door.", "Tu dois réparer la porte.", 414],
+  ["You must compare.", "Tu dois comparer.", 535],
+  ["I have to repair the car.", "Je dois réparer la voiture.", 577],
+  ["Can you prepare the car?", "Peux-tu préparer la voiture ?", 590],
+  ["Can you repair the car a little later?", "Peux-tu réparer la voiture un peu plus tard ?", 608],
+  ["You must reserve the car.", "Tu dois réserver la voiture.", 657],
+  ["You must reserve the machine.", "Tu dois réserver la machine.", 706]
+ ]
+}

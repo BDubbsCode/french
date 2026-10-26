@@ -15,6 +15,23 @@ def load(p):
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
 
 
+def clean(segments):
+    """Drop Whisper's repetition loops: words repeated 4+ times in a row, and
+    runs of 3+ identical segments."""
+    out = []
+    for s in segments:
+        words, kept = s["text"].split(), []
+        for w in words:
+            if len(kept) >= 3 and all(k.lower() == w.lower() for k in kept[-3:]):
+                continue
+            kept.append(w)
+        text = " ".join(kept)
+        if len(out) >= 2 and out[-1]["text"] == text == out[-2]["text"]:
+            continue
+        out.append({**s, "text": text})
+    return out
+
+
 if "--dump" in sys.argv:
     n = int(sys.argv[sys.argv.index("--dump") + 1])
     sys.stdout.reconfigure(encoding="utf-8")
@@ -35,7 +52,7 @@ for n in range(1, 41):
         "vocab": [{"fr": v[0], "en": v[1]} for v in notes.get("vocab", [])],
         "drills": [{"en": d[0], "fr": d[1], "t": d[2] if len(d) > 2 else None}
                    for d in notes.get("drills", [])],
-        "transcript": [{"t": s["start"], "x": s["text"]} for s in tx["segments"]],
+        "transcript": [{"t": s["start"], "x": s["text"]} for s in clean(tx["segments"])],
     }
     (out_dir / f"{n:02d}.json").write_text(
         json.dumps(lesson, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

@@ -1,0 +1,42 @@
+{
+ "title": "To do, qu'est-ce que, to buy",
+ "summary": "faire = to do / make (like 'fact', 'perfect'). Three ways to ask 'what': Que veux-tu faire ? / Tu veux faire quoi ? / Qu'est-ce que tu veux faire ? Qu'est-ce que means 'what is it that' and needs no inversion. acheter = to buy: j'achète, tu achètes, ils achètent ('il-zachète').",
+ "points": [
+  "faire = to do / make: Que veux-tu faire ?",
+  "Qu'est-ce que … ? = what (literally 'what is it that'). No inversion needed: Qu'est-ce que tu veux ?",
+  "que + il → qu'il: Qu'est-ce qu'ils veulent faire ?",
+  "c'est = it is / that is (C'est la vie).",
+  "acheter = to buy. The middle e is weak (ach'ter), but clear in j'achète (written è).",
+  "je contracts before a vowel (j'achète). tu doesn't (tu achètes).",
+  "Liaison shows the plural: elle achète / elles achètent ('el-zachète')."
+ ],
+ "vocab": [
+  ["faire", "to do / to make"],
+  ["qu'est-ce que", "what (is it that)"],
+  ["c'est", "it is / that is"],
+  ["acheter", "to buy"],
+  ["j'achète / tu achètes", "I buy / you buy"]
+ ],
+ "drills": [
+  ["to do", "faire", 0],
+  ["What do you want to do?", "Que veux-tu faire ?", 25],
+  ["What do you want to do? (casual)", "Tu veux faire quoi ?", 44],
+  ["Why don't they want to do it?", "Pourquoi ils ne veulent pas le faire ?", 53],
+  ["Why don't they want to do it? (inverted)", "Pourquoi ne veulent-ils pas le faire ?", 81],
+  ["What do you want? (qu'est-ce que)", "Qu'est-ce que tu veux ?", 170],
+  ["What do you want to do? (qu'est-ce que)", "Qu'est-ce que tu veux faire ?", 194],
+  ["What do they want to do?", "Qu'est-ce qu'ils veulent faire ?", 214],
+  ["What do they want to eat?", "Qu'est-ce qu'ils veulent manger ?", 233],
+  ["What are they eating?", "Qu'est-ce qu'ils mangent ?", 243],
+  ["to buy", "acheter", 250],
+  ["I buy.", "J'achète.", 318],
+  ["You buy.", "Tu achètes.", 329],
+  ["What are you buying?", "Qu'est-ce que tu achètes ?", 350],
+  ["She buys.", "Elle achète.", 359],
+  ["They (fem.) buy.", "Elles achètent.", 362],
+  ["What are they buying?", "Qu'est-ce qu'ils achètent ?", 387],
+  ["What are they buying? (casual)", "Ils achètent quoi ?", 440],
+  ["I know that you want to buy it.", "Je sais que tu veux l'acheter.", 463],
+  ["I know that you want to buy them.", "Je sais que tu veux les acheter.", 497]
+ ]
+}

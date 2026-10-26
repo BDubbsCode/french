@@ -1,0 +1,37 @@
+{
+ "title": "He, the mobile, te & getting ready",
+ "summary": "il = he: il veut. le portable = the mobile phone. When 'you' is the object (I see you, I want you), use te instead of tu. This also gives you reflexive verbs: Tu dois te préparer (You must get ready), Je dois me préparer (I must get ready).",
+ "points": [
+  "il = he: il veut, il peut, il doit.",
+  "le portable = mobile phone (in France). It's masculine even though it ends in e.",
+  "tu = you as the subject (you want). te = you as the object (I want you): Je dois te préparer.",
+  "te / me become t' / m' before a vowel: Je veux t'inviter.",
+  "'Get ready' = 'prepare yourself': Tu dois te préparer, Je dois me préparer.",
+  "'Relax' is also reflexive: Tu dois te relaxer. The re- has no accent, so it's soft.",
+  "Focus on one piece of the sentence at a time. Don't jump ahead."
+ ],
+ "vocab": [
+  ["il", "he"],
+  ["le portable", "the mobile phone"],
+  ["te / t'", "you (object), yourself"],
+  ["se préparer", "to get ready"],
+  ["se relaxer", "to relax"]
+ ],
+ "drills": [
+  ["She can invite him.", "Elle peut l'inviter.", 35],
+  ["She can invite him to the birthday party.", "Elle peut l'inviter à la fête d'anniversaire.", 44],
+  ["He wants to invite me.", "Il veut m'inviter.", 143],
+  ["He wants the mobile.", "Il veut le portable.", 185],
+  ["He wants it. (le portable)", "Il le veut.", 210],
+  ["She wants the black mobile.", "Elle veut le portable noir.", 247],
+  ["She wants it. (fem.)", "Elle la veut.", 272],
+  ["I have to prepare you.", "Je dois te préparer.", 328],
+  ["You have to get ready.", "Tu dois te préparer.", 344],
+  ["I have to get ready.", "Je dois me préparer.", 369],
+  ["I want to invite you.", "Je veux t'inviter.", 394],
+  ["He wants to invite you.", "Il veut t'inviter.", 410],
+  ["Do you want to invite him?", "Tu veux l'inviter ?", 418],
+  ["to relax", "relaxer", 451],
+  ["You have to relax.", "Tu dois te relaxer.", 462]
+ ]
+}

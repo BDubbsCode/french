@@ -1,0 +1,42 @@
+{
+ "title": "Un / une, black coffee, to present",
+ "summary": "un = a (masculine), une = a (feminine). The e of une makes you pronounce the n. Adjectives like noir usually come after the noun: un café noir (like 'film noir'). You also learn présenter, which is what French uses for introducing people.",
+ "points": [
+  "un (nasal, like un peu) for le-words: un gâteau, un café.",
+  "une (you hear the n) for la-words: une baguette, une invitation.",
+  "Adjectives usually follow the noun: le gâteau noir, un café noir, le chat noir.",
+  "café is masculine (le café) even though it ends in e. The é is always pronounced.",
+  "oi = 'wa': dois, voir, noir, voiture.",
+  "To introduce someone, use présenter: Peux-tu me présenter ?",
+  "For hard words, go syllable by syllable: l'in-tro-duc-tion."
+ ],
+ "vocab": [
+  ["un / une", "a / an (masc. / fem.)"],
+  ["noir", "black"],
+  ["un café noir", "a black coffee"],
+  ["le chat", "the cat"],
+  ["l'introduction", "the introduction"],
+  ["présenter", "to present / introduce (people)"]
+ ],
+ "drills": [
+  ["a cake", "un gâteau", 18],
+  ["a coffee", "un café", 29],
+  ["Do you want a cake?", "Veux-tu un gâteau ?", 58],
+  ["Do you want a coffee?", "Veux-tu un café ?", 79],
+  ["Do you want a baguette?", "Veux-tu une baguette ?", 160],
+  ["Can you prepare an invitation?", "Peux-tu préparer une invitation ?", 191],
+  ["You must see the confirmation.", "Tu dois voir la confirmation.", 245],
+  ["I just want to see the invitation.", "Je veux juste voir l'invitation.", 262],
+  ["the black cake", "le gâteau noir", 402],
+  ["the black coffee", "le café noir", 438],
+  ["a black coffee", "un café noir", 446],
+  ["Do you want a black coffee?", "Veux-tu un café noir ?", 467],
+  ["You must prepare a black coffee.", "Tu dois préparer un café noir.", 477],
+  ["You must prepare it. (le café)", "Tu dois le préparer.", 494],
+  ["You must see me later.", "Tu dois me voir plus tard.", 526],
+  ["You must prepare me.", "Tu dois me préparer.", 546],
+  ["You must see the introduction.", "Tu dois voir l'introduction.", 558],
+  ["to present / introduce", "présenter", 626],
+  ["Can you introduce me?", "Peux-tu me présenter ?", 685]
+ ]
+}

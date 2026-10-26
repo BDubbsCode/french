@@ -1,0 +1,38 @@
+{
+ "title": "Nasal sounds, now, on time",
+ "summary": "An n or m at the end of a syllable gets swallowed into the nose, so con- and com- sound alike, and maintenant (now) loses most of its letters. You also learn le train, le bus, la visite and à temps (on time).",
+ "points": [
+  "é (with accent) is a clear 'ay': réserver, réparer. A plain e (re-, je, le) is softer: recommander.",
+  "n or m at the end of a syllable is swallowed into the nose: le train, trente, comparer, contempler.",
+  "Final consonants are usually silent, but not always: le bus keeps its s.",
+  "A final e means you pronounce the consonant before it: la visite (the s sounds like z).",
+  "maintenant = now. à temps = on time (related to 'temporary'. The p and s are silent).",
+  "When building a sentence, take one piece at a time. Don't jump ahead to the hard word."
+ ],
+ "vocab": [
+  ["le train", "the train"],
+  ["le bus", "the bus"],
+  ["de", "of"],
+  ["la visite", "the visit"],
+  ["conserver", "to conserve / keep"],
+  ["contempler", "to contemplate"],
+  ["maintenant", "now"],
+  ["à temps", "on time"]
+ ],
+ "drills": [
+  ["I can recommend the car.", "Je peux recommander la voiture.", 92],
+  ["the train", "le train", 131],
+  ["I must recommend the train.", "Je dois recommander le train.", 161],
+  ["I want to recommend the bus.", "Je veux recommander le bus.", 203],
+  ["Do you want a bit of cake?", "Tu veux un peu de gâteau ?", 260],
+  ["Can you visit later?", "Peux-tu visiter plus tard ?", 292],
+  ["You must confirm the visit later.", "Tu dois confirmer la visite plus tard.", 353],
+  ["to compare", "comparer", 476],
+  ["to contemplate", "contempler", 539],
+  ["now", "maintenant", 576],
+  ["Can you confirm the visit now?", "Peux-tu confirmer la visite maintenant ?", 643],
+  ["Now you have to celebrate.", "Maintenant tu dois célébrer.", 660],
+  ["on time", "à temps", 712],
+  ["Can you order on time?", "Peux-tu commander à temps ?", 764]
+ ]
+}

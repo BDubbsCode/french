@@ -1,0 +1,32 @@
+{
+ "title": "-able words, to carry & to wear",
+ "summary": "Words ending in -able are usually the same in French: probable, confortable, adorable. Remove -able and add -er to get the verb: adorable → adorer, séparable → séparer, portable → porter (to carry / to wear). 'Must' can also mean 'probably': Elle doit t'adorer.",
+ "points": [
+  "-able words carry over: probable, confortable, adorable, inséparable, la table.",
+  "-able → -er verb: adorer, séparer, porter.",
+  "porter = to carry and to wear: Je veux porter un pantalon noir.",
+  "devoir can mean 'must be the case': Elle doit t'adorer (She must adore you).",
+  "Hearing a consonant at the end (la barbe) is a clue that the word ends in -e, and often that it's feminine.",
+  "porter la barbe = to have a beard."
+ ],
+ "vocab": [
+  ["probable", "probable"],
+  ["confortable", "comfortable"],
+  ["la table", "the table"],
+  ["adorer", "to adore"],
+  ["séparer", "to separate"],
+  ["porter", "to carry / to wear"],
+  ["le pantalon", "the trousers"],
+  ["la barbe", "the beard"]
+ ],
+ "drills": [
+  ["comfortable", "confortable", 28],
+  ["the table", "la table", 42],
+  ["to adore", "adorer", 65],
+  ["She must adore you.", "Elle doit t'adorer.", 103],
+  ["to separate", "séparer", 136],
+  ["to carry / to wear", "porter", 212],
+  ["I want to wear black trousers.", "Je veux porter un pantalon noir.", 249],
+  ["I want to grow a beard.", "Je veux porter la barbe.", 344]
+ ]
+}

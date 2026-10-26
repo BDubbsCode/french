@@ -1,0 +1,39 @@
+{
+ "title": "To send, I am, negatives",
+ "summary": "envoyer = to send, montrer = to show, manger = to eat. je suis = I am. Negatives wrap the verb: je ne veux pas (I don't want), je ne suis pas (I'm not). With two object words, me/te comes before le: Je veux te le montrer (I want to show it to you).",
+ "points": [
+  "en, em, an, am all make the same nasal sound: envoyer, emporter, attendre.",
+  "je suis = I am. Je suis de passage = I'm just passing through.",
+  "Negative = ne … pas around the verb: Je ne veux pas, Tu ne veux pas, Je ne suis pas.",
+  "In casual speech the ne often disappears, so listen for pas.",
+  "Two object words: te / me come before le / la / les: Je veux te le montrer.",
+  "montrer (to show) is related to 'demonstrate' and 'monster'."
+ ],
+ "vocab": [
+  ["envoyer", "to send"],
+  ["montrer", "to show"],
+  ["je suis", "I am"],
+  ["de passage", "passing through"],
+  ["ne … pas", "not"],
+  ["manger", "to eat"]
+ ],
+ "drills": [
+  ["to send", "envoyer", 14],
+  ["I must send a message.", "Je dois envoyer un message.", 63],
+  ["I have to send you the message.", "Je dois t'envoyer le message.", 81],
+  ["the messages", "les messages", 98],
+  ["to show", "montrer", 105],
+  ["I must show you the messages.", "Je dois te montrer les messages.", 181],
+  ["I'm passing through.", "Je suis de passage.", 215],
+  ["I'm just passing through.", "Je suis juste de passage.", 239],
+  ["I don't want.", "Je ne veux pas.", 261],
+  ["You don't want.", "Tu ne veux pas.", 348],
+  ["I'm not.", "Je ne suis pas.", 371],
+  ["I'm not passing through.", "Je ne suis pas de passage.", 384],
+  ["I'm not your husband.", "Je ne suis pas ton mari.", 401],
+  ["I want to eat.", "Je veux manger.", 433],
+  ["I don't want to eat.", "Je ne veux pas manger.", 440],
+  ["I want to show it to you.", "Je veux te le montrer.", 466],
+  ["I don't want to show it to you.", "Je ne veux pas te le montrer.", 484]
+ ]
+}

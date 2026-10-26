@@ -1,0 +1,47 @@
+{
+ "title": "Near, the vanishing s, to stop",
+ "summary": "près de = near (to): près de l'école, près de l'hôpital. Where English has s + t/p/c, French often drops the s and adds a circumflex: forest → forêt, feast → fête, hospital → hôpital, school → école, study → étudier. arrêter = to stop. s'arrêter = to stop (yourself). arrêter de fumer = to quit smoking.",
+ "points": [
+  "près de = near: J'habite près de l'école.",
+  "The vanished s: la forêt, la fête, l'hôpital, la bête (beast), l'intérêt, la pâte, l'île, la tempête.",
+  "A circumflex (ê, ô, â) often marks where an s used to be.",
+  "arrêter = to stop (related to 'arrest'). J'arrête la voiture.",
+  "arrêter de + verb = to quit: J'arrête de fumer.",
+  "Stopping yourself: Je m'arrête, Tu t'arrêtes.",
+  "étudier = to study: j'étudie, tu étudies. Je n'étudie rien."
+ ],
+ "vocab": [
+  ["l'école (f)", "the school"],
+  ["près de", "near (to)"],
+  ["l'hôpital (m)", "the hospital"],
+  ["la forêt", "the forest"],
+  ["les pâtes", "pasta"],
+  ["l'île (f)", "the island"],
+  ["arrêter", "to stop"],
+  ["s'arrêter", "to stop (oneself)"],
+  ["fumer", "to smoke"],
+  ["étudier", "to study"]
+ ],
+ "drills": [
+  ["the school", "l'école", 14],
+  ["near the school", "près de l'école", 55],
+  ["I live near the school.", "J'habite près de l'école.", 73],
+  ["He lives near the hospital.", "Il habite près de l'hôpital.", 111],
+  ["She is near the school.", "Elle est près de l'école.", 140],
+  ["I'm near the forest.", "Je suis près de la forêt.", 255],
+  ["He's eating pasta.", "Il mange les pâtes.", 325],
+  ["I'm stopping the car.", "J'arrête la voiture.", 424],
+  ["He's stopping the car.", "Il arrête la voiture.", 447],
+  ["I want to quit smoking.", "Je veux arrêter de fumer.", 471],
+  ["I'm quitting smoking.", "J'arrête de fumer.", 501],
+  ["I'm stopping.", "Je m'arrête.", 516],
+  ["I'm not stopping.", "Je ne m'arrête pas.", 543],
+  ["You're stopping.", "Tu t'arrêtes.", 556],
+  ["Aren't you stopping?", "Tu ne t'arrêtes pas ?", 573],
+  ["I study.", "J'étudie.", 625],
+  ["I don't study.", "Je n'étudie pas.", 647],
+  ["I don't study anything.", "Je n'étudie rien.", 667],
+  ["Where do you study?", "Où étudies-tu ?", 683],
+  ["Don't you study?", "Tu n'étudies pas ?", 707]
+ ]
+}

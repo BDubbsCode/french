@@ -1,0 +1,52 @@
+{
+ "title": "Past wrap-up: already, when, lost",
+ "summary": "nous avons = we have: Nous avons déjà mangé. Object words go before avoir: Je l'ai déjà organisé. -re verbs form the past with -u: perdu (lost), vendu (sold), fondu (melted). quand = when: Quand l'as-tu réparé ? Past participles also work as adjectives: Je suis perdu(e), La maison est vendue.",
+ "points": [
+  "aller and avoir share their irregular pattern: je vais / j'ai, tu vas / tu as, il va / il a, ils vont / ils ont. But nous allons / nous avons are regular.",
+  "Present + bientôt for the near future: Nous mangeons bientôt.",
+  "déjà = already: Nous avons déjà mangé.",
+  "Object words go before avoir: Je l'ai déjà organisé. Nous les avons fondus.",
+  "-er → -é (organisé, réparé), -re → -u (perdu, vendu, fondu).",
+  "quand = when, with inversion: Quand l'ont-ils perdu ? Quand l'as-tu réparé ?",
+  "se perdre = to get lost: Tu vas te perdre.",
+  "Participles as adjectives agree: Elle est vendue. Il est recommandé. Je suis perdu(e)."
+ ],
+ "vocab": [
+  ["ils vont / ils ont", "they go / they have"],
+  ["nous avons", "we have"],
+  ["bientôt", "soon"],
+  ["déjà", "already"],
+  ["quand", "when"],
+  ["fondre / fondu", "to melt / melted"],
+  ["perdu(e)", "lost"],
+  ["vendu(e)", "sold"],
+  ["se perdre", "to get lost"],
+  ["recommandé", "recommended"]
+ ],
+ "drills": [
+  ["They're going.", "Ils vont.", 0],
+  ["They have.", "Ils ont.", 7],
+  ["We're going.", "Nous allons.", 44],
+  ["We're going to eat soon.", "Nous allons bientôt manger.", 50],
+  ["We're eating soon.", "Nous mangeons bientôt.", 70],
+  ["We have.", "Nous avons.", 189],
+  ["We've eaten.", "Nous avons mangé.", 204],
+  ["We haven't eaten yet.", "Nous n'avons pas encore mangé.", 210],
+  ["We've already eaten.", "Nous avons déjà mangé.", 238],
+  ["I'm going to organise it.", "Je vais l'organiser.", 265],
+  ["I've already organised it.", "Je l'ai déjà organisé.", 273],
+  ["When are you going to repair it?", "Quand vas-tu le réparer ?", 317],
+  ["Have you melted it?", "Tu l'as fondu ?", 388],
+  ["We've melted them.", "Nous les avons fondus.", 407],
+  ["You're going to get lost.", "Tu vas te perdre.", 446],
+  ["Have you lost the keys again?", "Tu as encore perdu les clés ?", 493],
+  ["When did they lose it?", "Quand l'ont-ils perdu ?", 534],
+  ["When did you repair it?", "Quand l'as-tu réparé ?", 647],
+  ["I'm lost.", "Je suis perdu(e).", 700],
+  ["I'm totally lost.", "Je suis totalement perdu(e).", 706],
+  ["I've sold it.", "Je l'ai vendu.", 726],
+  ["It's sold. (la maison)", "Elle est vendue.", 749],
+  ["It's recommended.", "C'est recommandé.", 800],
+  ["It's recommended. (le massage)", "Il est recommandé.", 816]
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "title": "Station, to go, -age is masculine",
+ "summary": "aller = to go: Je dois aller à la gare. la gare = the station, la ville = the city. -age words are masculine even though they end in e: le village, le garage, le message, le mariage (exception: la cage). Noun endings change meaning and gender from one base: la ville / le village / la villa.",
+ "points": [
+  "aller = to go (like 'alleyway'). à la gare = to the station.",
+  "In the plural, la also becomes les: les gares, les villes.",
+  "-age is a masculine ending: le village, le garage, le message, le bagage, le courage, le mariage.",
+  "Exceptions to learn: la cage, la plage, la page, l'image.",
+  "One base, different endings: la ville / le village / la villa, la colle (glue) / le collage.",
+  "Remove the ending to find related words: le mariage → le mari (husband), l'avantage → avant (before), le courage → le cœur (heart)."
+ ],
+ "vocab": [
+  ["la gare", "the (train) station"],
+  ["aller", "to go"],
+  ["la ville", "the city / town"],
+  ["le village", "the village"],
+  ["le garage", "the garage"],
+  ["le message", "the message"],
+  ["le mariage", "the marriage / wedding"],
+  ["le mari", "the husband"],
+  ["avant", "before"],
+  ["le cœur", "the heart"],
+  ["la langue", "the tongue / language"],
+  ["les toilettes", "the toilets"]
+ ],
+ "drills": [
+  ["the doors", "les portes", 6],
+  ["the station", "la gare", 45],
+  ["a station", "une gare", 53],
+  ["to go", "aller", 70],
+  ["I have to go to the station.", "Je dois aller à la gare.", 82],
+  ["the stations", "les gares", 95],
+  ["the city", "la ville", 102],
+  ["a city", "une ville", 112],
+  ["the cities", "les villes", 127],
+  ["the village", "le village", 164],
+  ["the villages", "les villages", 172],
+  ["a garage", "un garage", 200],
+  ["a message", "un message", 235],
+  ["the marriage", "le mariage", 265],
+  ["the husband", "le mari", 627],
+  ["I want to see my husband.", "Je veux voir mon mari.", 643]
+ ]
+}
