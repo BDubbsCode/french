@@ -1,0 +1,37 @@
+{
+ "title": "Something, I can, to order",
+ "summary": "Many English verbs ending in -ation turn into French verbs ending in -er (pronounced like é): reservation → réserver. You also learn quelque chose (something) and je peux / tu peux (I can / you can), which sound the same as un peu even though they end in a silent x.",
+ "points": [
+  "Build verbs from -ation nouns: reservation → réserver, recommendation → recommander. The -er sounds like é.",
+  "The re- in recommander sounds like the e in je.",
+  "Drop the re- from recommander to get commander: to order (e.g. in a restaurant).",
+  "French usually doesn't pronounce consonants at the end of words: veux and peux both end in a silent x.",
+  "je peux (I can) is related to 'power' and 'possibility'."
+ ],
+ "vocab": [
+  ["réserver", "to reserve / to book"],
+  ["une chose", "a thing"],
+  ["quelque", "some"],
+  ["quelque chose", "something"],
+  ["recommander", "to recommend"],
+  ["commander", "to order"],
+  ["je veux / tu veux", "I want / you want"],
+  ["je peux / tu peux", "I can / you can"],
+  ["un peu", "a little"]
+ ],
+ "drills": [
+  ["to reserve", "réserver", 16],
+  ["something", "quelque chose", 36],
+  ["Do you want something?", "Tu veux quelque chose ?", 46],
+  ["Do you want to reserve something?", "Tu veux réserver quelque chose ?", 53],
+  ["I want to recommend something.", "Je veux recommander quelque chose.", 150],
+  ["Do you want to recommend something?", "Tu veux recommander quelque chose ?", 161],
+  ["I want to order something.", "Je veux commander quelque chose.", 184],
+  ["Do you want to order something?", "Tu veux commander quelque chose ?", 192],
+  ["You can celebrate a little.", "Tu peux célébrer un peu.", 266],
+  ["I can reserve something.", "Je peux réserver quelque chose.", 311],
+  ["I can recommend something.", "Je peux recommander quelque chose.", 344],
+  ["Can you recommend something?", "Tu peux recommander quelque chose ?", 361],
+  ["Can you order?", "Tu peux commander ?", 366]
+ ]
+}

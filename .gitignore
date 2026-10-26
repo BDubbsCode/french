@@ -1,0 +1,4 @@
+source/
+.venv/
+data/transcribe.log
+__pycache__/

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>French Before France</title>
+<meta name="description" content="Language Transfer Introduction to French, as a structured daily course.">
+<meta name="theme-color" content="#1f3a8a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Français">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="view"></main>
+
+<div id="mini" class="mini" hidden>
+  <button id="mini-open" class="mini-title"></button>
+  <button id="mini-back" class="icon-btn" aria-label="Back 10 seconds">↺10</button>
+  <button id="mini-play" class="icon-btn play" aria-label="Play or pause">▶</button>
+</div>
+
+<nav class="tabs">
+  <a href="#/today" data-tab="today"><span>☀︎</span>Today</a>
+  <a href="#/lessons" data-tab="lessons"><span>☰</span>Lessons</a>
+  <a href="#/review" data-tab="review"><span>↻</span>Review<b id="due-badge" hidden></b></a>
+  <a href="#/more" data-tab="more"><span>⋯</span>More</a>
+</nav>
+
+<div id="toast" class="toast" hidden></div>
+<audio id="audio" preload="metadata"></audio>
+<script type="module" src="app.js"></script>
+</body>
+</html>
