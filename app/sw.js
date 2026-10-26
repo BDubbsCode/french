@@ -1,7 +1,7 @@
 // App shell + lesson notes cache. Lesson audio lives in IndexedDB, not here.
-const CACHE = 'ltf-v1';
+const CACHE = 'ltf-v2';
 const SHELL = [
-  './', 'index.html', 'style.css', 'app.js', 'vendor/fflate.js', 'manifest.webmanifest',
+  './', 'index.html', 'style.css', 'app.js', 'vendor/fflate.js', 'manifest.webmanifest', 'decks.json',
   'icon-180.png', 'icon-512.png', 'lessons/index.json',
   ...Array.from({ length: 40 }, (_, i) => `lessons/${String(i + 1).padStart(2, '0')}.json`),
 ];
@@ -15,16 +15,22 @@ self.addEventListener('activate', e => {
     .then(() => self.clients.claim()));
 });
 
-// Serve from cache straight away, refresh in the background when online.
+// Network first so updates show up straight away; fall back to the cache when
+// offline or when the network takes longer than 3 seconds.
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
   e.respondWith(caches.open(CACHE).then(async cache => {
-    const hit = await cache.match(e.request, { ignoreSearch: true });
     const net = fetch(e.request).then(res => {
       if (res.ok) cache.put(e.request, res.clone());
       return res;
-    }).catch(() => hit);
-    return hit || net;
+    });
+    const slow = new Promise(r => setTimeout(r, 3000));
+    const hit = () => cache.match(e.request, { ignoreSearch: true });
+    try {
+      return await Promise.race([net, slow.then(async () => (await hit()) || net)]);
+    } catch {
+      return (await hit()) || Response.error();
+    }
   }));
 });

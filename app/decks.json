@@ -1,0 +1,340 @@
+{
+ "verbs": {
+  "title": "Survival verbs",
+  "units": [
+   {
+    "id": "etre", "title": "être: to be",
+    "intro": "je suis · tu es · il/elle/on est · nous sommes · vous êtes · ils/elles sont. In speech, on est (we are) is much more common than nous sommes. C'est = it is / that is.",
+    "cards": [
+     ["I'm tired.", "Je suis fatigué(e)."],
+     ["I'm a tourist.", "Je suis touriste."],
+     ["We're on holiday.", "On est en vacances."],
+     ["Are you open? (to shop staff)", "Vous êtes ouverts ?"],
+     ["It's very good.", "C'est très bon."],
+     ["It's not far.", "Ce n'est pas loin."],
+     ["Where is the station?", "Où est la gare ?"],
+     ["There are two of us. (table for two)", "On est deux."],
+     ["Is it far?", "C'est loin ?"],
+     ["The museum is closed.", "Le musée est fermé."],
+     ["They're really nice.", "Ils sont très sympas."],
+     ["I'm here for a week.", "Je suis ici pour une semaine."]
+    ]
+   },
+   {
+    "id": "avoir", "title": "avoir: to have",
+    "intro": "j'ai · tu as · il/elle/on a · nous avons · vous avez · ils/elles ont. French uses avoir where English uses 'be': j'ai faim (I'm hungry), j'ai froid (I'm cold), j'ai 30 ans (I'm 30). Il y a = there is / there are.",
+    "cards": [
+     ["I have a reservation.", "J'ai une réservation."],
+     ["Do you have a table for two?", "Vous avez une table pour deux ?"],
+     ["I'm hungry.", "J'ai faim."],
+     ["I'm thirsty.", "J'ai soif."],
+     ["I'm cold.", "J'ai froid."],
+     ["I'm 30.", "J'ai trente ans."],
+     ["We have a question.", "On a une question."],
+     ["Is there a pharmacy near here?", "Il y a une pharmacie près d'ici ?"],
+     ["There's a problem.", "Il y a un problème."],
+     ["I need a ticket.", "J'ai besoin d'un billet."],
+     ["Do you have any rooms available?", "Vous avez des chambres disponibles ?"],
+     ["I don't have any change.", "Je n'ai pas de monnaie."]
+    ]
+   },
+   {
+    "id": "aller", "title": "aller: to go + the easy future",
+    "intro": "je vais · tu vas · il/elle/on va · nous allons · vous allez · ils/elles vont. aller + infinitive = 'going to': je vais prendre… This is the easiest way to talk about the future, and it's what people use most in conversation.",
+    "cards": [
+     ["I'm going to Paris.", "Je vais à Paris."],
+     ["How are you? (polite)", "Comment allez-vous ?"],
+     ["We're going to the beach.", "On va à la plage."],
+     ["I'm going to have the steak.", "Je vais prendre le steak."],
+     ["Where are you going? (polite)", "Vous allez où ?"],
+     ["We're going to visit the museum.", "On va visiter le musée."],
+     ["I'm going to call a taxi.", "Je vais appeler un taxi."],
+     ["Let's go!", "On y va !"],
+     ["Does this train go to Lyon?", "Ce train va à Lyon ?"],
+     ["It's going to rain.", "Il va pleuvoir."],
+     ["I'm going to stay three days.", "Je vais rester trois jours."],
+     ["Are you going to come? (polite)", "Vous allez venir ?"]
+    ]
+   },
+   {
+    "id": "polite", "title": "Polite requests: vouloir & pouvoir",
+    "intro": "je veux (I want) can sound blunt. When ordering, say je voudrais (I would like). pouvoir: je peux · on peut · vous pouvez. Je pourrais… / Pourriez-vous… = could I… / could you… (extra polite).",
+    "cards": [
+     ["I'd like a coffee, please.", "Je voudrais un café, s'il vous plaît."],
+     ["Can I pay by card?", "Je peux payer par carte ?"],
+     ["Could you help me?", "Pourriez-vous m'aider ?"],
+     ["Can you repeat, please?", "Vous pouvez répéter, s'il vous plaît ?"],
+     ["Could you speak more slowly?", "Pourriez-vous parler plus lentement ?"],
+     ["We'd like to order.", "On voudrait commander."],
+     ["Can we sit here?", "On peut s'asseoir ici ?"],
+     ["I can't.", "Je ne peux pas."],
+     ["Do you want to come with us? (friend)", "Tu veux venir avec nous ?"],
+     ["What would you like? (polite)", "Qu'est-ce que vous voulez ?"],
+     ["Can I try it on?", "Je peux l'essayer ?"],
+     ["Could I have the bill, please?", "Je pourrais avoir l'addition, s'il vous plaît ?"]
+    ]
+   },
+   {
+    "id": "faire-prendre", "title": "faire & prendre",
+    "intro": "faire (to do / make): je fais · on fait · vous faites (never 'faisez') · ils font. Weather uses faire: il fait beau. prendre (to take, and to have food or drink): je prends · on prend · vous prenez · ils prennent.",
+    "cards": [
+     ["What are you doing? (polite)", "Qu'est-ce que vous faites ?"],
+     ["What do you do for a living?", "Qu'est-ce que vous faites dans la vie ?"],
+     ["I'm doing some shopping.", "Je fais du shopping."],
+     ["It's hot. (weather)", "Il fait chaud."],
+     ["It's nice out.", "Il fait beau."],
+     ["I'll have the set menu of the day.", "Je prends le menu du jour."],
+     ["We'll take the train.", "On prend le train."],
+     ["What are you having? (polite)", "Qu'est-ce que vous prenez ?"],
+     ["I take the metro every day.", "Je prends le métro tous les jours."],
+     ["Can you take a photo of us?", "Vous pouvez nous prendre en photo ?"],
+     ["We're going for a walk.", "On fait une promenade."],
+     ["It doesn't matter.", "Ça ne fait rien."]
+    ]
+   },
+   {
+    "id": "devoir-savoir", "title": "Must & know: devoir, il faut, savoir",
+    "intro": "devoir (must / have to): je dois · on doit · vous devez. Il faut… = you have to / it's necessary. It has no person and it's very common. savoir (to know a fact): je sais · je ne sais pas · vous savez.",
+    "cards": [
+     ["I have to go.", "Je dois partir."],
+     ["We have to be at the station at eight.", "On doit être à la gare à huit heures."],
+     ["Do I have to book?", "Il faut réserver ?"],
+     ["You have to change at Lyon.", "Il faut changer à Lyon."],
+     ["I don't know.", "Je ne sais pas."],
+     ["Do you know where the station is?", "Vous savez où est la gare ?"],
+     ["I know.", "Je sais."],
+     ["How much do I owe you?", "Je vous dois combien ?"],
+     ["We need to buy tickets.", "Il faut acheter des billets."],
+     ["I don't know how to say it.", "Je ne sais pas comment le dire."],
+     ["You must try it! (polite)", "Vous devez l'essayer !"]
+    ]
+   },
+   {
+    "id": "venir-dire-partir", "title": "venir, dire, partir",
+    "intro": "venir (to come): je viens · on vient · vous venez · ils viennent. venir de + infinitive = to have just done: je viens d'arriver. dire (to say): je dis · vous dites. partir (to leave): je pars · on part · vous partez.",
+    "cards": [
+     ["Where are you from? (polite)", "Vous venez d'où ?"],
+     ["I just arrived.", "Je viens d'arriver."],
+     ["Are you coming? (friend)", "Tu viens ?"],
+     ["How do you say 'receipt' in French?", "Comment dit-on « receipt » en français ?"],
+     ["What does that mean?", "Qu'est-ce que ça veut dire ?"],
+     ["What are you saying? (polite)", "Qu'est-ce que vous dites ?"],
+     ["We're leaving tomorrow.", "On part demain."],
+     ["What time does the train leave?", "Le train part à quelle heure ?"],
+     ["I'll be back tomorrow.", "Je reviens demain."],
+     ["Where do I put the luggage?", "Je mets les bagages où ?"],
+     ["We've just eaten.", "On vient de manger."]
+    ]
+   },
+   {
+    "id": "pc-avoir", "title": "The past with avoir",
+    "intro": "Most verbs: avoir + past participle. -er verbs → é: réservé, mangé, visité, payé. Common irregulars: fait, pris, vu, eu, été, dû, pu, voulu, dit, mis, bu, compris, perdu. C'était (it was) is a handy fixed phrase.",
+    "cards": [
+     ["I booked a room.", "J'ai réservé une chambre."],
+     ["We ate really well.", "On a très bien mangé."],
+     ["I've lost my passport.", "J'ai perdu mon passeport."],
+     ["Have you seen the Eiffel Tower? (polite)", "Vous avez vu la tour Eiffel ?"],
+     ["I took the wrong train.", "J'ai pris le mauvais train."],
+     ["What did you do yesterday? (friend)", "Qu'est-ce que tu as fait hier ?"],
+     ["I had a problem.", "J'ai eu un problème."],
+     ["We visited the museum.", "On a visité le musée."],
+     ["I've already paid.", "J'ai déjà payé."],
+     ["I forgot my phone.", "J'ai oublié mon portable."],
+     ["I didn't understand.", "Je n'ai pas compris."],
+     ["It was great!", "C'était génial !"]
+    ]
+   },
+   {
+    "id": "pc-etre", "title": "The past with être",
+    "intro": "Verbs of coming, going and staying use être instead of avoir: aller, venir, arriver, partir, rester, entrer, sortir, monter, descendre, tomber, rentrer, revenir, naître. The ending agrees like an adjective: allé (m) · allée (f) · allés (plural).",
+    "cards": [
+     ["I went to Nice.", "Je suis allé(e) à Nice."],
+     ["We arrived yesterday.", "On est arrivés hier."],
+     ["When did you arrive? (polite)", "Vous êtes arrivé(e) quand ?"],
+     ["I stayed at the hotel.", "Je suis resté(e) à l'hôtel."],
+     ["The train has left.", "Le train est parti."],
+     ["She fell.", "Elle est tombée."],
+     ["We went out last night.", "On est sortis hier soir."],
+     ["Did you go to the market? (friend)", "Tu es allé(e) au marché ?"],
+     ["I got back late.", "Je suis rentré(e) tard."],
+     ["I've never been to France before.", "Je ne suis jamais allé(e) en France."],
+     ["Where were you born? (polite)", "Vous êtes né(e) où ?"]
+    ]
+   },
+   {
+    "id": "negatives", "title": "Saying no: negatives",
+    "intro": "ne … pas wraps around the verb: je ne sais pas. In the past it wraps avoir/être: je n'ai pas vu. In speech people often drop the ne (je sais pas). Other wraps: ne … plus (no more), ne … jamais (never), ne … rien (nothing). After a negative, un/une/des become de: je n'ai pas de voiture.",
+    "cards": [
+     ["I don't understand.", "Je ne comprends pas."],
+     ["It's not possible.", "Ce n'est pas possible."],
+     ["I don't have a reservation.", "Je n'ai pas de réservation."],
+     ["I don't eat meat.", "Je ne mange pas de viande."],
+     ["There's no more bread.", "Il n'y a plus de pain."],
+     ["I've never eaten snails.", "Je n'ai jamais mangé d'escargots."],
+     ["Nothing, thanks.", "Rien, merci."],
+     ["I don't want anything.", "Je ne veux rien."],
+     ["It doesn't work.", "Ça ne marche pas."],
+     ["We're not going to stay.", "On ne va pas rester."],
+     ["I didn't see it.", "Je ne l'ai pas vu."],
+     ["Don't worry. (polite)", "Ne vous inquiétez pas."]
+    ]
+   },
+   {
+    "id": "questions", "title": "Survival questions",
+    "intro": "Easiest question: say a statement with a rising voice. Est-ce que… at the start turns any sentence into a question. Question words: où (where) · quand (when) · combien (how much) · comment (how) · pourquoi (why) · à quelle heure (what time) · qu'est-ce que (what).",
+    "cards": [
+     ["How much is it?", "C'est combien ?"],
+     ["Where are the toilets?", "Où sont les toilettes ?"],
+     ["What time does it open?", "Ça ouvre à quelle heure ?"],
+     ["Do you speak English? (polite)", "Vous parlez anglais ?"],
+     ["Is service included?", "Le service est compris ?"],
+     ["Can you recommend a restaurant?", "Vous pouvez recommander un restaurant ?"],
+     ["What is it?", "Qu'est-ce que c'est ?"],
+     ["Why is it closed?", "Pourquoi c'est fermé ?"],
+     ["How do I get to the station?", "Comment aller à la gare ?"],
+     ["When does the next train leave?", "Le prochain train part quand ?"],
+     ["Is breakfast included?", "Le petit-déjeuner est compris ?"],
+     ["What do you recommend? (polite)", "Qu'est-ce que vous recommandez ?"]
+    ]
+   },
+   {
+    "id": "mixed", "title": "Past, present, future mix",
+    "intro": "Same verb, three times. Present: je prends. Past: j'ai pris. Future: je vais prendre. Switching quickly between them is what makes conversation flow.",
+    "cards": [
+     ["I take the train. (present)", "Je prends le train."],
+     ["I took the train. (past)", "J'ai pris le train."],
+     ["I'm going to take the train. (future)", "Je vais prendre le train."],
+     ["We eat here. (present)", "On mange ici."],
+     ["We ate here. (past)", "On a mangé ici."],
+     ["We're going to eat here. (future)", "On va manger ici."],
+     ["I'm going to Lyon. (present)", "Je vais à Lyon."],
+     ["I went to Lyon. (past)", "Je suis allé(e) à Lyon."],
+     ["I'm going to go to Lyon. (future)", "Je vais aller à Lyon."],
+     ["I'm doing it. (present)", "Je le fais."],
+     ["I did it. (past)", "Je l'ai fait."],
+     ["I'm going to do it tomorrow. (future)", "Je vais le faire demain."]
+    ]
+   }
+  ]
+ },
+ "gender": {
+  "title": "Le or la?",
+  "units": [
+   {
+    "id": "fem1", "title": "Feminine: -tion, -sion, -té, -ure",
+    "intro": "Nouns ending in -tion / -sion, -té and -ure are almost always feminine. -tion/-sion has basically no exceptions. -té has a few (l'été, le côté, le pâté).",
+    "cards": [
+     ["réservation", "f", "reservation"],
+     ["station", "f", "metro station"],
+     ["addition", "f", "bill (restaurant)"],
+     ["direction", "f", "direction"],
+     ["télévision", "f", "television"],
+     ["question", "f", "question"],
+     ["liberté", "f", "freedom"],
+     ["spécialité", "f", "speciality"],
+     ["santé", "f", "health"],
+     ["voiture", "f", "car"],
+     ["culture", "f", "culture"],
+     ["confiture", "f", "jam"],
+     ["été", "m", "summer", "Exception: l'été is masculine, like all the seasons."],
+     ["côté", "m", "side", "Exception: le côté."],
+     ["pâté", "m", "pâté", "Exception: le pâté."]
+    ]
+   },
+   {
+    "id": "masc1", "title": "Masculine: -ment, -age, -eau",
+    "intro": "Nouns ending in -ment, -age and -eau are masculine. Learn the few common exceptions: la plage, la page, l'image (f), l'eau (f), la peau.",
+    "cards": [
+     ["appartement", "m", "apartment"],
+     ["moment", "m", "moment"],
+     ["médicament", "m", "medicine"],
+     ["monument", "m", "monument"],
+     ["fromage", "m", "cheese"],
+     ["voyage", "m", "trip"],
+     ["village", "m", "village"],
+     ["étage", "m", "floor / storey"],
+     ["plage", "f", "beach", "Exception: la plage."],
+     ["page", "f", "page", "Exception: la page."],
+     ["image", "f", "picture", "Exception: l'image is feminine (une image)."],
+     ["bateau", "m", "boat"],
+     ["gâteau", "m", "cake"],
+     ["château", "m", "castle"],
+     ["eau", "f", "water", "Exception: l'eau is feminine (une eau minérale)."],
+     ["peau", "f", "skin", "Exception: la peau."]
+    ]
+   },
+   {
+    "id": "fem2", "title": "Feminine: -ence, -ance, -ette, -ie, -ée, -ise",
+    "intro": "Also feminine: -ence / -ance, -ette, -ie, -ée, -ise. Watch out for le musée and le lycée (-ée but masculine) and le silence.",
+    "cards": [
+     ["chance", "f", "luck"],
+     ["ambiance", "f", "atmosphere"],
+     ["différence", "f", "difference"],
+     ["assiette", "f", "plate"],
+     ["serviette", "f", "napkin / towel"],
+     ["fourchette", "f", "fork"],
+     ["boulangerie", "f", "bakery"],
+     ["pharmacie", "f", "pharmacy"],
+     ["sortie", "f", "exit"],
+     ["entrée", "f", "entrance / starter", "une entrée"],
+     ["soirée", "f", "evening / party"],
+     ["journée", "f", "day"],
+     ["valise", "f", "suitcase"],
+     ["église", "f", "church", "une église"],
+     ["musée", "m", "museum", "Exception: le musée."],
+     ["lycée", "m", "high school", "Exception: le lycée."],
+     ["silence", "m", "silence", "Exception: le silence."]
+    ]
+   },
+   {
+    "id": "masc2", "title": "Masculine: -isme, -oir, -et, -ier, -é, consonants",
+    "intro": "Masculine: -isme, -oir, -et, -ier, and -é (except -té). Most nouns ending in a consonant are masculine too. Common exceptions: la mer, la nuit, la fin.",
+    "cards": [
+     ["tourisme", "m", "tourism"],
+     ["soir", "m", "evening"],
+     ["trottoir", "m", "pavement / sidewalk"],
+     ["billet", "m", "ticket"],
+     ["poulet", "m", "chicken"],
+     ["quartier", "m", "neighbourhood"],
+     ["escalier", "m", "stairs"],
+     ["marché", "m", "market"],
+     ["thé", "m", "tea"],
+     ["vin", "m", "wine"],
+     ["pain", "m", "bread"],
+     ["lit", "m", "bed"],
+     ["train", "m", "train"],
+     ["hôtel", "m", "hotel", "un hôtel"],
+     ["mer", "f", "sea", "Exception: la mer."],
+     ["nuit", "f", "night", "Exception: la nuit."],
+     ["fin", "f", "end", "Exception: la fin."]
+    ]
+   },
+   {
+    "id": "travel", "title": "Travel words with no rule",
+    "intro": "These don't follow a reliable ending rule, so just learn them with their article. Tip: words ending in -e are slightly more often feminine, but problème, système and thème are masculine.",
+    "cards": [
+     ["gare", "f", "train station"],
+     ["rue", "f", "street"],
+     ["chambre", "f", "room (hotel) / bedroom"],
+     ["clé", "f", "key"],
+     ["carte", "f", "card / menu / map"],
+     ["table", "f", "table"],
+     ["bière", "f", "beer"],
+     ["viande", "f", "meat"],
+     ["place", "f", "square / seat"],
+     ["tour", "f", "tower (la tour Eiffel)", "Careful: le tour = a tour or a turn."],
+     ["plat", "m", "dish / main course"],
+     ["dessert", "m", "dessert"],
+     ["verre", "m", "glass"],
+     ["métro", "m", "metro"],
+     ["vol", "m", "flight"],
+     ["pays", "m", "country"],
+     ["problème", "m", "problem", "Looks feminine, but most -ème words are masculine."],
+     ["menu", "m", "set menu", "Note: the menu you read is la carte."],
+     ["sac", "m", "bag"],
+     ["musique", "f", "music"]
+    ]
+   }
+  ]
+ }
+}

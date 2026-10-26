@@ -146,6 +146,11 @@ ul.points li { margin-bottom: 6px; }
 .grades { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
 .grades .btn { flex-direction: column; gap: 0; padding: 6px 4px; font-size: 15px; min-height: 58px; }
 .grades .btn small { font-weight: 400; font-size: 12px; opacity: .8; }
+.grades.two { grid-template-columns: 1fr 1fr; }
+.grades.two .btn { font-size: 20px; min-height: 64px; }
+.flash .a.ok { color: var(--green); }
+.flash .a.bad { color: var(--red); }
+.flash .note { margin-top: 10px; }
 .g0 { background: var(--red) !important; color: #fff !important; }
 .g1 { background: var(--amber) !important; color: #fff !important; }
 .g2 { background: var(--green) !important; color: #fff !important; }

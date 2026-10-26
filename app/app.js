@@ -103,16 +103,31 @@ async function loadLesson(n) {
   return lessonCache[n];
 }
 const nextLesson = () => index.find(l => !state.done[l.n]);
+
+// ---------- practice decks (verbs, gender) ----------
+let decks = { verbs: { title: 'Survival verbs', units: [] }, gender: { title: 'Le or la?', units: [] } };
+const deckCards = {};
+async function loadDecks() {
+  try { decks = await (await fetch('decks.json')).json(); } catch {}
+  for (const u of decks.verbs.units)
+    for (const [en, fr] of u.cards) deckCards[`v|${fr}`] = { kind: 'verb', en, fr, src: u.title };
+  for (const u of decks.gender.units)
+    for (const [word, g, en, note] of u.cards) deckCards[`g|${word}`] = { kind: 'gender', word, g, en, note, src: u.title };
+}
+const unitIds = (deck, u) => u.cards.map(c => deck === 'verbs' ? `v|${c[1]}` : `g|${c[0]}`);
+const unitStarted = (deck, u) => unitIds(deck, u).some(id => state.cards[id]);
+const unitLearned = (deck, u) => unitIds(deck, u).filter(id => state.cards[id]?.reps >= 2).length;
+const nextUnit = deck => decks[deck].units.find(u => !unitStarted(deck, u));
+const withArticle = (word, g) => (/^[aeiouyéèêâîôûh]/i.test(word) ? "l'" : g === 'm' ? 'le ' : 'la ') + word;
+const indefinite = (word, g) => `${g === 'm' ? 'un' : 'une'} ${word}`;
 const title = l => l.title ? `Lesson ${l.n} · ${l.title}` : `Lesson ${l.n}`;
 
 // ---------- spaced repetition ----------
 const cardId = (n, d) => `${n}|${d.fr}`;
-function addCards(lesson) {
-  for (const d of lesson.drills) {
-    const id = cardId(lesson.n, d);
-    state.cards[id] ??= { due: today(), ivl: 0, ease: 2.5, reps: 0 };
-  }
+function addIds(ids) {
+  for (const id of ids) state.cards[id] ??= { due: today(), ivl: 0, ease: 2.5, reps: 0 };
 }
+const addCards = lesson => addIds(lesson.drills.map(d => cardId(lesson.n, d)));
 function schedule(c, g) {
   c = { ...c };
   if (g === 0) { c.reps = 0; c.ivl = 0; c.ease = Math.max(1.3, c.ease - 0.2); c.due = today(); return c; }
@@ -128,9 +143,10 @@ const dueIds = () => Object.entries(state.cards).filter(([, c]) => c.due <= toda
 const ivlLabel = c => c.ivl === 0 ? 'now' : c.ivl === 1 ? '1 day' : c.ivl < 30 ? `${c.ivl} days` : `${Math.round(c.ivl / 30)} mo`;
 
 async function drillFor(id) {
+  if (deckCards[id]) return deckCards[id];
   const [n, fr] = [+id.split('|')[0], id.slice(id.indexOf('|') + 1)];
   const l = await loadLesson(n);
-  return { n, ...(l.drills.find(d => d.fr === fr) || { en: '', fr }) };
+  return { kind: 'drill', src: `Lesson ${n}`, ...(l.drills.find(d => d.fr === fr) || { en: '', fr }) };
 }
 
 // ---------- speech ----------
@@ -263,6 +279,18 @@ async function viewToday() {
       <p class="muted small">${due ? 'Say each one out loud before you reveal the answer.' : 'Nothing due. Finish a lesson to add its drills.'}</p>
       ${due ? `<a class="btn block" href="#/review">Review ${due} card${due > 1 ? 's' : ''}</a>` : ''}
     </div>
+
+    ${(() => {
+      const v = nextUnit('verbs'), g = nextUnit('gender');
+      if (!v && !g) return '';
+      return `
+      <div class="card">
+        <div class="row spread"><h2 style="margin:0">Practice</h2><a class="small" href="#/practice">All units ›</a></div>
+        <p class="muted small">Add one new unit a day alongside your lesson.</p>
+        ${v ? `<a class="btn ghost block" style="margin-top:8px" href="#/unit/verbs/${v.id}">Verbs: ${esc(v.title)}</a>` : ''}
+        ${g ? `<a class="btn ghost block" style="margin-top:8px" href="#/unit/gender/${g.id}">Le/la: ${esc(g.title)}</a>` : ''}
+      </div>`;
+    })()}
 
     <div class="grid2">
       <div class="card stat"><b>${doneCount}<small class="muted">/40</small></b><span>lessons done</span>
@@ -407,11 +435,9 @@ async function viewLesson(n) {
   if (undoBtn) undoBtn.onclick = () => { delete state.done[n]; save(); viewLesson(n); };
 }
 
-async function viewReview(lessonN) {
-  const cram = lessonN != null;
-  let queue;
-  if (cram) { const l = await loadLesson(lessonN); queue = l.drills.map(d => cardId(lessonN, d)); }
-  else queue = dueIds();
+// ids: cards to go through. cram: practise without changing the schedule.
+async function viewReview({ ids = dueIds(), cram = false, heading = 'Review' } = {}) {
+  const queue = [...ids];
   queue.sort(() => Math.random() - 0.5);
   let done = 0;
   const total = queue.length;
@@ -433,12 +459,49 @@ async function viewReview(lessonN) {
     const id = queue[0];
     const d = await drillFor(id);
     const c = state.cards[id] || { due: today(), ivl: 0, ease: 2.5, reps: 0 };
-    view.innerHTML = `
-      <h1>${cram ? `Lesson ${lessonN} drills` : 'Review'}</h1>
+    const grade = g => {
+      queue.shift();
+      if (!cram && state.cards[id]) { state.cards[id] = schedule(c, g); logActivity(); }
+      if (g === 0) queue.push(id); else done++;
+      save(); updateBadge(); show();
+    };
+    const header = `
+      <h1>${esc(heading)}</h1>
       <div class="bar" style="margin:8px 0 4px"><i style="width:${done / total * 100}%"></i></div>
-      <p class="small muted">${queue.length} left</p>
+      <p class="small muted">${queue.length} left</p>`;
+
+    if (d.kind === 'gender') {
+      view.innerHTML = `${header}
+        <div class="card flash">
+          <div class="src">${esc(d.src)} · Le or la?</div>
+          <div class="q" style="font-size:30px">${esc(d.word)}</div>
+          <div class="muted">${esc(d.en)}</div>
+          <div class="a" hidden></div>
+          <div class="small muted note" hidden></div>
+        </div>
+        <div class="grades two">
+          <button class="btn ghost" data-pick="m">le · un</button>
+          <button class="btn ghost" data-pick="f">la · une</button>
+        </div>
+        <button class="btn block" id="next" hidden>Next</button>`;
+      view.querySelectorAll('[data-pick]').forEach(b => b.onclick = () => {
+        const right = b.dataset.pick === d.g;
+        const a = $('.flash .a');
+        a.hidden = false;
+        a.className = `a ${right ? 'ok' : 'bad'}`;
+        a.textContent = `${right ? '✓' : '✗'} ${withArticle(d.word, d.g)} · ${indefinite(d.word, d.g)}`;
+        if (d.note) { $('.flash .note').hidden = false; $('.flash .note').textContent = d.note; }
+        $('.grades').hidden = true;
+        $('#next').hidden = false;
+        $('#next').onclick = () => grade(right ? 2 : 0);
+        if (state.autoSpeak) say(withArticle(d.word, d.g));
+      });
+      return;
+    }
+
+    view.innerHTML = `${header}
       <div class="card flash">
-        <div class="src">Lesson ${d.n} · How would you say…</div>
+        <div class="src">${esc(d.src)} · How would you say…</div>
         <div class="q">${esc(d.en)}</div>
         <div class="a" hidden>${esc(d.fr)} <button class="chip" data-say="${esc(d.fr)}">🔈</button></div>
       </div>
@@ -451,15 +514,61 @@ async function viewReview(lessonN) {
       if (state.autoSpeak) say(d.fr);
     };
     view.querySelector('[data-say]').onclick = e => say(e.currentTarget.dataset.say);
-    view.querySelectorAll('[data-g]').forEach(b => b.onclick = () => {
-      const g = +b.dataset.g;
-      queue.shift();
-      if (!cram && state.cards[id]) { state.cards[id] = schedule(c, g); logActivity(); }
-      if (g === 0) queue.push(id); else done++;
-      save(); updateBadge(); show();
-    });
+    view.querySelectorAll('[data-g]').forEach(b => b.onclick = () => grade(+b.dataset.g));
   };
   show();
+}
+
+function viewPractice() {
+  const section = deck => `
+    <h3>${esc(decks[deck].title)}</h3>
+    <ul class="list">${decks[deck].units.map((u, i) => {
+      const started = unitStarted(deck, u), learned = unitLearned(deck, u);
+      return `<li><a href="#/unit/${deck}/${u.id}">
+        <span class="num ${learned === u.cards.length ? 'done' : started ? 'next' : ''}">${learned === u.cards.length ? '✓' : i + 1}</span>
+        <span class="t"><div>${esc(u.title)}</div>
+          <div class="small muted">${started ? `${learned}/${u.cards.length} learned` : `${u.cards.length} cards`}</div></span>
+        <span class="muted">›</span></a></li>`;
+    }).join('')}</ul>`;
+  view.innerHTML = `
+    <h1>Practice</h1>
+    <p class="muted">Targeted drills for conjugation and le/la. Start a unit to add it to your daily Review.</p>
+    ${section('verbs')}
+    ${section('gender')}`;
+}
+
+function viewUnit(deck, uid) {
+  const u = decks[deck]?.units.find(x => x.id === uid);
+  if (!u) { location.hash = '#/practice'; return; }
+  const started = unitStarted(deck, u);
+  const ids = unitIds(deck, u);
+  const due = ids.filter(id => state.cards[id] && state.cards[id].due <= today()).length;
+  view.innerHTML = `
+    <p style="margin:8px 0 0"><a href="#/practice">‹ Practice</a></p>
+    <h1>${esc(u.title)}</h1>
+    <div class="card"><p style="margin:0">${esc(u.intro)}</p></div>
+    <div class="btn-row">
+      ${!started ? `<a class="btn" href="#/review/unit/${deck}/${uid}">Start unit (${u.cards.length} cards)</a>`
+        : due ? `<a class="btn" href="#/review/unit/${deck}/${uid}">Review ${due} due</a>`
+        : `<a class="btn ghost" href="#/review/unit/${deck}/${uid}">Practise again</a>`}
+    </div>
+    <h3>${deck === 'verbs' ? 'Prompts' : 'Words'}</h3>
+    <div class="card" style="padding-top:4px">${deck === 'verbs'
+      ? u.cards.map(([en, fr]) => `
+        <div class="drill"><div>${esc(en)}</div>
+          <div class="ans fr hide">${esc(fr)}</div>
+          <div class="tools"><button class="chip" data-say="${esc(fr)}">🔈 Hear it</button></div></div>`).join('')
+      : u.cards.map(([w, g, en, note]) => `
+        <div class="drill"><div class="row spread"><span><span class="ans fr hide">${esc(withArticle(w, g))}</span> <span class="muted">· ${esc(en)}</span></span>
+          <button class="chip" data-say="${esc(withArticle(w, g))}">🔈</button></div>
+          ${note ? `<div class="small muted">${esc(note)}</div>` : ''}</div>`).join('')}
+    </div>`;
+  view.onclick = e => {
+    const t = e.target.closest('[data-say],.ans.hide');
+    if (!t) return;
+    if (t.matches('.ans.hide')) t.classList.remove('hide');
+    else say(t.dataset.say);
+  };
 }
 
 async function viewMore() {
@@ -567,10 +676,25 @@ async function route() {
   view.onclick = null;
   const h = location.hash || '#/today';
   const [, a, b, c] = h.split('/');
-  document.querySelectorAll('.tabs a').forEach(t => t.classList.toggle('on', t.dataset.tab === (a === 'lesson' ? 'lessons' : a)));
+  const tab = { lesson: 'lessons', unit: 'practice' }[a] || (a === 'review' && b === 'unit' ? 'practice' : a);
+  document.querySelectorAll('.tabs a').forEach(t => t.classList.toggle('on', t.dataset.tab === tab));
   if (a === 'lesson') await viewLesson(+b);
   else if (a === 'lessons') viewLessons();
-  else if (a === 'review') await viewReview(b === 'lesson' ? +c : null);
+  else if (a === 'practice') viewPractice();
+  else if (a === 'unit') viewUnit(b, c);
+  else if (a === 'review' && b === 'lesson') {
+    const l = await loadLesson(+c);
+    await viewReview({ ids: l.drills.map(d => cardId(l.n, d)), cram: true, heading: `Lesson ${l.n} drills` });
+  } else if (a === 'review' && b === 'unit') {
+    const deck = c, u = decks[deck]?.units.find(x => x.id === h.split('/')[4]);
+    if (!u) { location.hash = '#/practice'; return; }
+    const ids = unitIds(deck, u);
+    const fresh = !unitStarted(deck, u);
+    addIds(ids); save(); updateBadge();
+    const due = ids.filter(id => state.cards[id].due <= today());
+    await viewReview(due.length ? { ids: due, heading: u.title } : { ids, cram: true, heading: u.title });
+    if (fresh) logActivity();
+  } else if (a === 'review') await viewReview();
   else if (a === 'more') await viewMore();
   else await viewToday();
   updateMini();
@@ -580,6 +704,6 @@ addEventListener('hashchange', route);
 document.addEventListener('visibilitychange', () => { if (document.hidden) save(); else updateBadge(); });
 
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
-await loadIndex();
+await Promise.all([loadIndex(), loadDecks()]);
 updateBadge();
 route();
