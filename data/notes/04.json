@@ -1,0 +1,38 @@
+{
+ "title": "Questions by inversion, to close the door",
+ "summary": "You can ask a question just with your voice (Tu peux confirmer ?), or more formally by swapping the person and verb, joined with a dash (Peux-tu confirmer ?). You also learn fermer (to close), la porte, and how to learn nouns together with their le/la.",
+ "points": [
+  "Two ways to ask: rising tone (Tu veux ?) or inversion (Veux-tu ?). Inversion is more proper. Tone is common in everyday speech.",
+  "Inverted questions are written with a dash: Peux-tu…? Veux-tu…?",
+  "Always learn a noun with its 'the': learn 'la porte', not 'porte (feminine)'. Ask natives 'How do you say THE door?'",
+  "con-/com- is a common Latin prefix: con + firmer. fermer (to close) is related to 'firm'.",
+  "The French r is made in the throat: la porte.",
+  "commander, recommander, demander all share a base meaning 'hand' (la main)."
+ ],
+ "vocab": [
+  ["Peux-tu… ?", "Can you…?"],
+  ["Veux-tu… ?", "Do you want…?"],
+  ["explorer", "to explore"],
+  ["organiser", "to organise"],
+  ["fermer", "to close"],
+  ["la porte", "the door"],
+  ["demander", "to ask (for)"],
+  ["la main", "the hand"]
+ ],
+ "drills": [
+  ["I can / I'm able", "je peux", 6],
+  ["Can you confirm?", "Tu peux confirmer ?", 16],
+  ["Can you? (inverted)", "Peux-tu ?", 92],
+  ["Can you explore a little?", "Peux-tu explorer un peu ?", 106],
+  ["Can you organise a little?", "Peux-tu organiser un peu ?", 133],
+  ["Do you want? (inverted)", "Veux-tu ?", 154],
+  ["to confirm", "confirmer", 211],
+  ["Can you confirm? (inverted)", "Peux-tu confirmer ?", 225],
+  ["to close", "fermer", 273],
+  ["the door", "la porte", 285],
+  ["Can you close the door?", "Peux-tu fermer la porte ?", 305],
+  ["Can you close the door a little?", "Peux-tu fermer la porte un peu ?", 379],
+  ["to recommend", "recommander", 393],
+  ["to order", "commander", 408]
+ ]
+}

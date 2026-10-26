@@ -1,0 +1,40 @@
+{
+ "title": "Turning -ation words into verbs",
+ "summary": "Take an English -ation noun, drop the -ation and add -er (pronounced like é) and you have a French verb: confirmation → confirmer, celebration → célébrer, participation → participer. This one trick unlocks thousands of sentences.",
+ "points": [
+  "-ation noun → drop -ation, add -er: confirmer, célébrer, participer, visiter.",
+  "'to confirm' is two words in English but one in French. Don't translate word for word.",
+  "Look for the -ation word even when it isn't what you'd naturally say: 'get involved' → participation → participer.",
+  "Even rare English words like 'visitation' tell you the French verb exists: visiter.",
+  "un peu (a little): think the n but don't pronounce it. peu has the same vowel as veux.",
+  "un peu can sit in the middle: Tu veux participer un peu ?"
+ ],
+ "vocab": [
+  ["la baguette", "the baguette"],
+  ["confirmer", "to confirm"],
+  ["célébrer", "to celebrate"],
+  ["participer", "to participate / get involved"],
+  ["visiter", "to visit (a place)"],
+  ["un peu", "a little"]
+ ],
+ "drills": [
+  ["I want the cake.", "Je veux le gâteau.", 15],
+  ["I want it. (le gâteau)", "Je le veux.", 19],
+  ["Do you want it? (la baguette)", "Tu la veux ?", 35],
+  ["I want the confirmation.", "Je veux la confirmation.", 87],
+  ["I want it. (la confirmation)", "Je la veux.", 98],
+  ["to confirm", "confirmer", 158],
+  ["to celebrate", "célébrer", 207],
+  ["I want to celebrate.", "Je veux célébrer.", 215],
+  ["Do you want to celebrate?", "Tu veux célébrer ?", 231],
+  ["Do you want to celebrate a little?", "Tu veux célébrer un peu ?", 278],
+  ["I want to celebrate a little.", "Je veux célébrer un peu.", 297],
+  ["to participate", "participer", 329],
+  ["I want to get involved.", "Je veux participer.", 342],
+  ["I want to get involved a little.", "Je veux participer un peu.", 396],
+  ["Do you want to get involved?", "Tu veux participer ?", 416],
+  ["Do you want to get a little involved?", "Tu veux participer un peu ?", 424],
+  ["I want to visit.", "Je veux visiter.", 448],
+  ["Do you want to visit?", "Tu veux visiter ?", 476]
+ ]
+}

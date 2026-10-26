@@ -1,0 +1,47 @@
+{
+ "title": "Le, la, je veux & -ion words",
+ "summary": "English already contains lots of French. Here you learn je veux / tu veux (I want / you want), le and la (the), and how to use le/la for 'it' by putting it before the verb. English words ending in -ion are almost always the same in French, and they're all feminine (la).",
+ "points": [
+  "Pause the track and answer out loud before the student does. Thinking it through slowly is how the method works.",
+  "je veux = I want, tu veux = you want. veux is related to 'volunteer' (someone who does something because they want to).",
+  "le (masculine) and la (feminine) = the. Every noun has a gender.",
+  "'It' is le or la too, and it goes before the verb: je le veux = I want it (literally 'I it want').",
+  "To ask a question, just raise your voice at the end: Tu le veux ?",
+  "-ion words (collection, tradition, opinion) are the same in French, all feminine, and you barely hear the final n.",
+  "le and la become l' before a vowel: l'opinion, l'organisation."
+ ],
+ "vocab": [
+  ["le gâteau", "the cake"],
+  ["le café", "the coffee / the café"],
+  ["je veux", "I want"],
+  ["tu veux", "you want"],
+  ["le / la / l'", "the (masc. / fem. / before a vowel)"],
+  ["je le veux / je la veux", "I want it"],
+  ["la collection", "the collection"],
+  ["la tradition", "the tradition"],
+  ["la confirmation", "the confirmation"],
+  ["la réservation", "the reservation"],
+  ["l'opinion", "the opinion"],
+  ["l'organisation", "the organisation"],
+  ["la passion", "the passion"]
+ ],
+ "drills": [
+  ["the coffee", "le café", 122],
+  ["I want the cake.", "Je veux le gâteau.", 216],
+  ["I want the coffee.", "Je veux le café.", 238],
+  ["I want it. (le gâteau)", "Je le veux.", 255],
+  ["You want the cake.", "Tu veux le gâteau.", 311],
+  ["Do you want the cake?", "Tu veux le gâteau ?", 330],
+  ["You want it. (le gâteau)", "Tu le veux.", 337],
+  ["Do you want it? (le gâteau)", "Tu le veux ?", 346],
+  ["I want the collection.", "Je veux la collection.", 520],
+  ["Do you want the confirmation?", "Tu veux la confirmation ?", 565],
+  ["I want it. (la confirmation)", "Je la veux.", 577],
+  ["You want the collection.", "Tu veux la collection.", 593],
+  ["Do you want it? (la collection)", "Tu la veux ?", 612],
+  ["the reservation", "la réservation", 664],
+  ["the opinion", "l'opinion", 694],
+  ["the organisation", "l'organisation", 710],
+  ["the passion", "la passion", 716]
+ ]
+}
